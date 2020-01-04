@@ -1,18 +1,10 @@
-(ROOT
-  (S
-    (NP (DT The) (JJ old) (NN car))
-    (VP (VBD broke)
-      (PRT (RP down))
-      (PP (IN in)
-        (NP (DT the) (NN car) (NN park))))
-    (. .)))
-
 det(car-3, The-1)
 amod(car-3, old-2)
 nsubj(broke-4, car-3)
 root(ROOT-0, broke-4)
 prt(broke-4, down-5)
+prep(broke-4, in-6)
 det(park-9, the-7)
 nn(park-9, car-8)
-prep_in(broke-4, park-9)
+pobj(in-6, park-9)
 

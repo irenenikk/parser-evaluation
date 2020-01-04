@@ -1,33 +1,16 @@
-(ROOT
-  (S
-    (NP (PRP It))
-    (VP (VBD was)
-      (NP
-        (NP (PRP$ my) (NN aunt) (POS 's))
-        (NN car)
-        (SBAR
-          (WHNP (WDT which))
-          (S
-            (NP (PRP we))
-            (VP (VBD sold)
-              (PP (IN at)
-                (NP (NN auction)))
-              (NP (JJ last) (NN year))
-              (PP (IN in)
-                (NP (NNP February))))))))
-    (. .)))
-
 nsubj(car-6, It-1)
 cop(car-6, was-2)
 poss(aunt-4, my-3)
 poss(car-6, aunt-4)
-dobj(sold-9, aunt-4)
+possessive(aunt-4, 's-5)
 root(ROOT-0, car-6)
+dobj(sold-9, which-7)
 nsubj(sold-9, we-8)
-rcmod(aunt-4, sold-9)
 ccomp(car-6, sold-9)
-prep_at(sold-9, auction-11)
+prep(sold-9, at-10)
+pobj(at-10, auction-11)
 amod(year-13, last-12)
 tmod(sold-9, year-13)
-prep_in(sold-9, February-15)
+prep(sold-9, in-14)
+pobj(in-14, February-15)
 

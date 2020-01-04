@@ -1,54 +1,11 @@
-(ROOT
-  (S
-    (S
-      (S
-        (VP (VBG Making)
-          (NP (DT these) (NNS decisions))))
-      (VP (VBZ requires)
-        (NP
-          (NP (JJ sophisticated) (NN knowledge))
-          (PP (IN of)
-            (NP (NN syntax))))))
-    (: ;)
-    (S
-      (NP
-        (NP (JJ tagging) (NNS manuals))
-        (PRN (-LRB- -LRB-)
-          (NP (NNP Santorini))
-          (, ,)
-          (NP (CD 1990))
-          (-RRB- -RRB-)))
-      (VP (VBP give)
-        (NP (JJ various) (NNS heuristics))
-        (NP
-          (SBAR
-            (WHNP (WDT that))
-            (S
-              (VP (MD can)
-                (VP (VB help)
-                  (S
-                    (NP (JJ human) (NNS coders))
-                    (VP (VB make)
-                      (NP (DT these) (NNS decisions))))))))
-          (CC and)
-          (SBAR
-            (WHNP (WDT that))
-            (S
-              (VP (MD can)
-                (ADVP (RB also))
-                (VP (VB provide)
-                  (NP (JJ useful) (NNS features))
-                  (PP (IN for)
-                    (NP (JJ automatic) (NNS taggers))))))))))
-    (. .)))
-
 csubj(requires-4, Making-1)
 det(decisions-3, these-2)
 dobj(Making-1, decisions-3)
 root(ROOT-0, requires-4)
 amod(knowledge-6, sophisticated-5)
 dobj(requires-4, knowledge-6)
-prep_of(knowledge-6, syntax-8)
+prep(knowledge-6, of-7)
+pobj(of-7, syntax-8)
 amod(manuals-11, tagging-10)
 nsubj(give-17, manuals-11)
 appos(manuals-11, Santorini-13)
@@ -64,13 +21,14 @@ nsubj(make-25, coders-24)
 ccomp(help-22, make-25)
 det(decisions-27, these-26)
 dobj(make-25, decisions-27)
+cc(help-22, and-28)
 nsubj(provide-32, that-29)
 aux(provide-32, can-30)
 advmod(provide-32, also-31)
-dobj(give-17, provide-32)
-conj_and(help-22, provide-32)
+conj(help-22, provide-32)
 amod(features-34, useful-33)
 dobj(provide-32, features-34)
+prep(provide-32, for-35)
 amod(taggers-37, automatic-36)
-prep_for(provide-32, taggers-37)
+pobj(for-35, taggers-37)
 

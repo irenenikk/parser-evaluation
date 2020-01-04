@@ -1,37 +1,3 @@
-(ROOT
-  (S
-    (ADVP (RB Thus))
-    (NP (DT the) (JJ EM-trained) (`` ``) (JJ pure) (NN HMM) ('' '') (NN tagger))
-    (VP (VBZ is)
-      (ADVP (RB probably))
-      (VP
-        (ADVP (RBS best))
-        (VBN suited)
-        (PP (TO to)
-          (NP
-            (NP (NNS cases))
-            (SBAR
-              (WHADVP (WRB where))
-              (S
-                (NP (DT no) (NN training) (NNS data))
-                (VP (VBZ is)
-                  (ADJP (JJ available))
-                  (, ,)
-                  (PP (IN for)
-                    (NP
-                      (NP (NN example))
-                      (, ,)
-                      (SBAR
-                        (WHNP
-                          (NP (WRB when) (JJ tagging) (NNS languages))
-                          (WHPP (IN for)
-                            (WHNP (WDT which))))
-                        (S
-                          (NP (DT no) (NNS data))
-                          (VP (VBD was)
-                            (ADJP (RB previously) (JJ hand-tagged))))))))))))))
-    (. .)))
-
 advmod(suited-12, Thus-1)
 det(tagger-8, the-2)
 amod(tagger-8, EM-trained-3)
@@ -42,18 +8,21 @@ auxpass(suited-12, is-9)
 advmod(suited-12, probably-10)
 advmod(suited-12, best-11)
 root(ROOT-0, suited-12)
-prep_to(suited-12, cases-14)
+prep(suited-12, to-13)
+pobj(to-13, cases-14)
 advmod(available-20, where-15)
 neg(data-18, no-16)
 nn(data-18, training-17)
 nsubj(available-20, data-18)
 cop(available-20, is-19)
 rcmod(cases-14, available-20)
-prep_for(available-20, example-23)
-prep_for(languages-27, example-23)
+prep(available-20, for-22)
+pobj(for-22, example-23)
 advmod(languages-27, when-25)
 amod(languages-27, tagging-26)
 dobj(hand-tagged-34, languages-27)
+prep(languages-27, for-28)
+pobj(for-28, which-29)
 neg(data-31, no-30)
 nsubj(hand-tagged-34, data-31)
 cop(hand-tagged-34, was-32)

@@ -1,30 +1,11 @@
-(ROOT
-  (S
-    (NP
-      (NP
-        (NP (DT The) (NN horse))
-        (CONJP (RB as) (RB well) (IN as))
-        (NP (DT the) (NNS rabbits)))
-      (SBAR
-        (WHNP (WDT which))
-        (S
-          (NP (PRP we))
-          (VP (VBD wanted)
-            (S
-              (VP (TO to)
-                (VP (VB eat))))))))
-    (VP (VBP have)
-      (VP (VBN escaped)))))
-
 det(horse-2, The-1)
-dobj(wanted-10, horse-2)
-nsubj(eat-12, horse-2)
 nsubj(escaped-14, horse-2)
+advmod(well-4, as-3)
+cc(horse-2, well-4)
+mwe(well-4, as-5)
 det(rabbits-7, the-6)
-conj_and(horse-2, rabbits-7)
-dobj(wanted-10, rabbits-7)
-nsubj(eat-12, rabbits-7)
-nsubj(escaped-14, rabbits-7)
+conj(horse-2, rabbits-7)
+dobj(wanted-10, which-8)
 nsubj(wanted-10, we-9)
 rcmod(horse-2, wanted-10)
 aux(eat-12, to-11)

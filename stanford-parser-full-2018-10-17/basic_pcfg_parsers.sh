@@ -11,4 +11,5 @@ fi
 scriptdir=`dirname $0`
 
 java -mx150m -cp "$scriptdir/*:" edu.stanford.nlp.parser.lexparser.LexicalizedParser \
- -outputFormat "typedDependencies" -originalDependencies -outputFormatOptions “basicDependencies” edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz $*
+ -outputFormat "typedDependencies" -outputFormatOptions "basicDependencies" \
+  -originalDependencies edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz $*

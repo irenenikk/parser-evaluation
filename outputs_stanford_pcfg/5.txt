@@ -1,21 +1,6 @@
-(ROOT
-  (S
-    (NP
-      (NP (DT The) (NN horse))
-      (SBAR
-        (WHNP (WDT which))
-        (S
-          (NP (NNP Kim) (NNP sometimes) (NNS rides))
-          (VP (VBZ is)
-            (ADJP (RBR more) (JJ bad))))))
-    (VP (VBN tempered)
-      (PP (IN than)
-        (NP (NN mine))))
-    (. .)))
-
 det(horse-2, The-1)
-dobj(bad-9, horse-2)
 nsubj(tempered-10, horse-2)
+dobj(bad-9, which-3)
 nn(rides-6, Kim-4)
 nn(rides-6, sometimes-5)
 nsubj(bad-9, rides-6)
@@ -23,5 +8,6 @@ cop(bad-9, is-7)
 advmod(bad-9, more-8)
 rcmod(horse-2, bad-9)
 root(ROOT-0, tempered-10)
-prep_than(tempered-10, mine-12)
+prep(tempered-10, than-11)
+pobj(than-11, mine-12)
 

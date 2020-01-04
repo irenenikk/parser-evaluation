@@ -1,79 +1,16 @@
-(ROOT
-  (S
-    (NP (NNP English))
-    (ADVP (RB also))
-    (VP (VBZ has)
-      (NP
-        (NP (JJ many) (NNS words))
-        (PP (IN of)
-          (NP
-            (ADJP
-              (ADJP (JJR more))
-              (CC or)
-              (ADJP (RBR less) (JJ unique)))
-            (NN function)))
-        (, ,)
-        (PP (VBG including)
-          (NP
-            (NP
-              (NP
-                (NP
-                  (NP (NNS interjections))
-                  (PRN (-LRB- -LRB-)
-                    (FRAG
-                      (INTJ (UH oh))
-                      (, ,)
-                      (NP (NN ah)))
-                    (-RRB- -RRB-)))
-                (, ,)
-                (NP
-                  (NP (NNS negatives))
-                  (PRN (-LRB- -LRB-)
-                    (FRAG
-                      (INTJ (UH no))
-                      (, ,)
-                      (NP (RB not)))
-                    (-RRB- -RRB-)))
-                (, ,)
-                (NP
-                  (NP (JJ politeness) (NNS markers))
-                  (PRN (-LRB- -LRB-)
-                    (S
-                      (VP (VB please) (, ,) (VB thank)
-                        (NP (PRP you))))
-                    (-RRB- -RRB-)))
-                (, ,)
-                (PP (CC and)
-                  (NP
-                    (NP (DT the) (NN existential))
-                    (`` `)
-                    (NP (RB there))
-                    ('' '))))
-              (PRN (-LRB- -LRB-)
-                (S
-                  (NP (EX there))
-                  (VP (VBP are)
-                    (NP
-                      (NP (NNS horses))
-                      (CONJP (CC but)
-                        (RB not))
-                      (NP (NNS unicorns)))))
-                (-RRB- -RRB-)))
-            (PP (IN among)
-              (NP (NNS others)))))))
-    (. .)))
-
 nsubj(has-3, English-1)
 advmod(has-3, also-2)
 root(ROOT-0, has-3)
 amod(words-5, many-4)
 dobj(has-3, words-5)
+prep(words-5, of-6)
 amod(function-11, more-7)
+cc(more-7, or-8)
 advmod(unique-10, less-9)
-conj_or(more-7, unique-10)
-amod(function-11, unique-10)
-prep_of(words-5, function-11)
-prep_including(words-5, interjections-14)
+conj(more-7, unique-10)
+pobj(of-6, function-11)
+prep(words-5, including-13)
+pobj(including-13, interjections-14)
 discourse(ah-18, oh-16)
 dep(interjections-14, ah-18)
 appos(interjections-14, negatives-21)
@@ -91,7 +28,9 @@ dep(existential-39, there-41)
 expl(are-45, there-44)
 dep(interjections-14, are-45)
 nsubj(are-45, horses-46)
-nsubj(are-45, unicorns-49)
-conj_negcc(horses-46, unicorns-49)
-prep_among(interjections-14, others-52)
+cc(not-48, but-47)
+cc(horses-46, not-48)
+conj(horses-46, unicorns-49)
+prep(interjections-14, among-51)
+pobj(among-51, others-52)
 

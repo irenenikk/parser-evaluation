@@ -2,8 +2,17 @@
 
 This project contains everything needed to compare the perforamance between two dependency parsers: Stanford and RASP.
 
+## Running experiments
 
-## The stanford parser
+Use the following command to convert all sentences in the input folder to SD parses in the output folder:
+
+**You must run it in the folder you have installed the Stanford parser**
+
+```
+../run_parsers.sh
+```
+
+### The stanford parser
 
 Download [here](http://nlp.stanford.edu/software/lex-parser.html#Download).
 
@@ -13,7 +22,7 @@ Run the parser with
 ./basic_pcfg_parsers.sh ../inputs/xx.txt > ../outputs_stanford_pcfg/xx.txt
 ```
 
-## The Berkeley parser
+### The Berkeley parser
 
 First get the parse in a PTB format:
 

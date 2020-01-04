@@ -1,0 +1,16 @@
+(S
+  (NP (PRP It))
+  (VP
+    (VBD was)
+    (NP
+      (NP (NP (NP (PRP$ my) (NN aunt) (POS ’)) (POS s)) (NN car))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP we))
+          (VP
+            (VBD sold)
+            (PP (IN at) (NP (NN auction)))
+            (NP (JJ last) (NN year))
+            (PP (IN in) (NP (NNP February))))))))
+  (. .))

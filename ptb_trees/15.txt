@@ -1,0 +1,59 @@
+(S
+  (NP (NNP English))
+  (ADVP (RB also))
+  (VP
+    (VBZ has)
+    (NP
+      (NP (JJ many) (NNS words))
+      (PP
+        (IN of)
+        (NP
+          (ADJP (ADJP (JJR more) (CC or) (JJR less)) (JJ unique))
+          (NN function)))
+      (, ,)
+      (PP
+        (VBG including)
+        (NP
+          (NP
+            (NP (NNS interjections))
+            (PRN
+              (-LRB- -LRB-)
+              (INTJ (INTJ (UH oh)) (, ,) (INTJ (UH ah)))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NNS negatives))
+            (PRN
+              (-LRB- -LRB-)
+              (INTJ (UH no))
+              (, ,)
+              (RB not)
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NN politeness) (NNS markers))
+            (PRN
+              (-LRB- -LRB-)
+              (ADVP (UH please))
+              (, ,)
+              (VP (VB thank) (NP (PRP you)))
+              (-RRB- -RRB-)))
+          (, ,)
+          (CC and)
+          (NP
+            (NP
+              (NP (DT the) (JJ existential) (`` ‘) (RB there) ('' ’))
+              (PRN
+                (-LRB- -LRB-)
+                (S
+                  (NP (EX there))
+                  (VP
+                    (VBP are)
+                    (NP
+                      (NP (NNS horses))
+                      (CC but)
+                      (RB not)
+                      (NP (NNS unicorns)))))
+                (-RRB- -RRB-)))
+            (PP (IN among) (NP (NNS others))))))))
+  (. .))

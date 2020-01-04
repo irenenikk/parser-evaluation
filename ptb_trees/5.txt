@@ -1,0 +1,12 @@
+(S
+  (NP
+    (NP (DT The) (NN horse))
+    (SBAR
+      (WHNP (WDT which))
+      (S (NP (NNP Kim)) (ADVP (RB sometimes)) (VP (VBZ rides)))))
+  (VP
+    (VBZ is)
+    (ADJP
+      (ADJP (RBR more) (JJ bad) (VBN tempered))
+      (PP (IN than) (NP (NN mine)))))
+  (. .))

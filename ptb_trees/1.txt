@@ -1,0 +1,7 @@
+(S
+  (NP (DT The) (JJ old) (NN car))
+  (VP
+    (VBD broke)
+    (PRT (RP down))
+    (PP (IN in) (NP (DT the) (NN car) (NN park))))
+  (. .))

@@ -1,0 +1,5 @@
+cython
+numpy
+benepar
+nltk
+tensorflow==1.15

@@ -1,0 +1,54 @@
+(S
+  (S
+    (NP (DT The) (NNP Penn) (NNP Treebank) (NNP tagset))
+    (VP
+      (VBD was)
+      (VP
+        (VBN culled)
+        (PP
+          (IN from)
+          (NP
+            (NP (DT the) (JJ original) (JJ 87-tag) (NN tagset))
+            (PP (IN for) (NP (DT the) (NNP Brown) (NN Corpus))))))))
+  (CC .)
+  (S
+    (PP (IN For) (NP (NN example)))
+    (NP
+      (DT the)
+      (JJ original)
+      (NNP Brown)
+      (CC and)
+      (NNP C5)
+      (NNS tagsets))
+    (VP
+      (VBP include)
+      (NP
+        (NP
+          (NP
+            (NP (DT a) (JJ separate) (NN tag))
+            (PP
+              (IN for)
+              (NP
+                (NP (DT each))
+                (IN of)
+                (NP (DT the) (JJ different) (NNS forms)))))
+          (PP (IN of) (NP (DT the) (NNS verbs))))
+        (VP
+          (VBP do)
+          (PRN
+            (-LRB- -LRB-)
+            (JJ e.g)
+            (FW .)
+            (NP
+              (NP
+                (NP (NNP C5) (NN tag) (NNP VDD))
+                (PP (IN for) (NP (NNP did))))
+              (CC and)
+              (NP
+                (NP (NNP VDG) (NNP tag))
+                (PP (IN for) (S (VP (VBG doing))))))
+            (-RRB- -RRB-))
+          (, ,)
+          (VP (VB be))
+          (CC and)
+          (VP (VB have)))))))

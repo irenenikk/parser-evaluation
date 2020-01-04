@@ -1,0 +1,10 @@
+(S
+  (NP (DT The) (NNS horses))
+  (VP
+    (VBD were)
+    (VP
+      (VP (VBN broken) (PRT (IN in)))
+      (CC and)
+      (VBN ridden)
+      (PP (IN in) (NP (CD two) (NNS weeks)))))
+  (. .))

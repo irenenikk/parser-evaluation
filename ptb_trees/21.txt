@@ -1,0 +1,19 @@
+(S
+  (NP (NP (NN Skill)) (PP (IN without) (NP (NN imagination))))
+  (VP
+    (VP
+      (VP (VBZ is) (NP (NN craftsmanship)))
+      (CC and)
+      (VP
+        (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP (JJ many) (JJ useful) (NNS objects))
+          (PP
+            (JJ such)
+            (IN as)
+            (NP (NN wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)
+    (NP (NP (NN Imagination)) (PP (IN without) (NP (NN skill))))
+    (VP (VBZ gives) (NP (PRP us)) (NP (JJ modern) (NN art))))
+  (. .))

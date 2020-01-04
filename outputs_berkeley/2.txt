@@ -1,0 +1,12 @@
+quantmod(two-3, At-1)
+mwe(At-1, least-2)
+num(men-4, two-3)
+nsubj(broke-5, men-4)
+root(ROOT-0, broke-5)
+advmod(broke-5, in-6)
+cc(broke-5, and-7)
+conj(broke-5, stole-8)
+poss(TV-10, my-9)
+dobj(stole-8, TV-10)
+punct(broke-5, .-11)
+

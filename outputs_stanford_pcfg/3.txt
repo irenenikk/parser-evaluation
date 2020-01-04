@@ -1,0 +1,23 @@
+(ROOT
+  (S
+    (NP (DT The) (NNS horses))
+    (VP (VBD were)
+      (VP
+        (VP (VBN broken)
+          (PP (IN in)))
+        (CC and)
+        (VP (VBN ridden)
+          (PP (IN in)
+            (NP (CD two) (NNS weeks))))))
+    (. .)))
+
+det(horses-2, The-1)
+nsubjpass(broken-4, horses-2)
+nsubjpass(ridden-7, horses-2)
+auxpass(broken-4, were-3)
+root(ROOT-0, broken-4)
+prep(broken-4, in-5)
+conj_and(broken-4, ridden-7)
+num(weeks-10, two-9)
+prep_in(ridden-7, weeks-10)
+

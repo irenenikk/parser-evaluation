@@ -1,0 +1,51 @@
+(S
+  (NP
+    (NP (DT The) (ADJP (RB slightly) (VBN simplified)) (NN version))
+    (PP
+      (PP (IN of) (NP (DT the) (NNP Viterbi) (NN algorithm)))
+      (SBAR (WHNP (IN that)) (S (NP (PRP we)) (VP (VBP present))))))
+  (VP
+    (VP
+      (VBZ takes)
+      (PP (IN as) (NP (NN input)))
+      (NP
+        (NP (DT a) (JJ single) (NN HMM))
+        (CC and)
+        (NP
+          (NP (DT a) (NN sequence))
+          (PP
+            (IN of)
+            (NP
+              (NP (NP (JJ observed) (NNS words)) (NP (SYM O)))
+              (: =)
+              (-LRB- -LRB-)
+              (NP (CD o1))
+              (, ,)
+              (NP (CD o2))
+              (, ,)
+              (: ...)
+              (NP (NNP oT))
+              (-RRB- -RRB-))))))
+    (CC and)
+    (VP
+      (VBZ returns)
+      (NP
+        (NP
+          (NP
+            (DT the)
+            (ADJP (RBS most) (JJ probable))
+            (NN state/tag)
+            (NN sequence))
+          (NP (NN Q)))
+        (NN =)
+        (-LRB- -LRB-)
+        (CD q1)
+        (, ,)
+        (CD q2)
+        (, ,)
+        (NNP qT)
+        (-RRB- -RRB-))
+      (PP
+        (RB together)
+        (PP (IN with) (NP (PRP$ its) (NN probability))))))
+  (. .))

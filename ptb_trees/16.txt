@@ -1,0 +1,44 @@
+(S
+  (S
+    (S (VP (VBG Making) (NP (DT these) (NNS decisions))))
+    (VP
+      (VBZ requires)
+      (NP
+        (NP (JJ sophisticated) (NN knowledge))
+        (PP (IN of) (NP (NN syntax))))))
+  (: ;)
+  (S
+    (NP
+      (NP (VBG tagging) (NNS manuals))
+      (PRN
+        (-LRB- -LRB-)
+        (NP (NP (NNP Santorini)) (, ,) (NP (CD 1990)))
+        (-RRB- -RRB-)))
+    (VP
+      (VBP give)
+      (NP
+        (NP (JJ various) (NNS heuristics))
+        (SBAR
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP
+                (MD can)
+                (VP
+                  (VB help)
+                  (S
+                    (NP (JJ human) (NNS coders))
+                    (VP (VB make) (NP (DT these) (NNS decisions))))))))
+          (CC and)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP
+                (MD can)
+                (ADVP (RB also))
+                (VP
+                  (VB provide)
+                  (NP
+                    (NP (JJ useful) (NNS features))
+                    (PP (IN for) (NP (JJ automatic) (NNS taggers))))))))))))
+  (. .))

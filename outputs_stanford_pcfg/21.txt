@@ -1,0 +1,50 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Skill))
+      (PP (IN without)
+        (NP (NN imagination))))
+    (VP
+      (VP (VBZ is)
+        (NP (NN craftsmanship)))
+      (CC and)
+      (VP (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP (JJ many) (JJ useful) (NNS objects))
+          (PP (JJ such) (IN as)
+            (NP (NN wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)))
+
+nsubj(craftsmanship-5, Skill-1)
+nsubj(gives-7, Skill-1)
+prep_without(Skill-1, imagination-3)
+cop(craftsmanship-5, is-4)
+root(ROOT-0, craftsmanship-5)
+conj_and(craftsmanship-5, gives-7)
+iobj(gives-7, us-8)
+amod(objects-11, many-9)
+amod(objects-11, useful-10)
+dobj(gives-7, objects-11)
+nn(baskets-16, wickerwork-14)
+nn(baskets-16, picnic-15)
+prep_such_as(objects-11, baskets-16)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Imagination))
+      (PP (IN without)
+        (NP (NN skill))))
+    (VP (VBZ gives)
+      (NP (PRP us))
+      (NP (JJ modern) (NN art)))
+    (. .)))
+
+nsubj(gives-4, Imagination-1)
+prep_without(Imagination-1, skill-3)
+root(ROOT-0, gives-4)
+iobj(gives-4, us-5)
+amod(art-7, modern-6)
+dobj(gives-4, art-7)
+

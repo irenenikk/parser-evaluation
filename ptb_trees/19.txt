@@ -1,0 +1,44 @@
+(S
+  (ADVP (RB Thus))
+  (NP
+    (DT the)
+    (JJ EM-trained)
+    (`` “)
+    (JJ pure)
+    (NNP HMM)
+    ('' ”)
+    (NN tagger))
+  (VP
+    (VBZ is)
+    (ADVP (RB probably))
+    (VP
+      (ADVP (RBS best))
+      (VBN suited)
+      (PP
+        (TO to)
+        (NP
+          (NP (NNS cases))
+          (SBAR
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT no) (NN training) (NN data))
+                (VBZ is)
+                (ADJP (JJ available))))
+            (, ,)
+            (PP (IN for) (NP (NN example)))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (VP
+                  (NP (VBG tagging) (NP (NNS languages)))
+                  (SBAR
+                    (WHPP (IN for) (WHNP (WDT which)))
+                    (S
+                      (NP (DT no) (NN data))
+                      (VP
+                        (VBD was)
+                        (ADVP (RB previously))
+                        (VP (VBN hand-tagged)))))))))))))
+  (. .))

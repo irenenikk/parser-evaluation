@@ -1,0 +1,13 @@
+(S
+  (NP
+    (NP (DT The) (JJ only) (NN rabbit))
+    (SBAR
+      (WHNP (IN that))
+      (S (NP (PRP I)) (ADVP (RB ever)) (VP (VBD liked)))))
+  (VP
+    (VBD was)
+    (VP
+      (VBN eaten)
+      (PP (IN by) (NP (PRP$ my) (NNS parents)))
+      (NP (CD one) (NN summer))))
+  (. .))

@@ -1,0 +1,7 @@
+(S
+  (NP (QP (IN At) (JJS least) (CD two)) (NNS men))
+  (VP
+    (VP (VBD broke) (ADVP (RB in)))
+    (CC and)
+    (VP (VBD stole) (NP (PRP$ my) (NN TV))))
+  (. .))

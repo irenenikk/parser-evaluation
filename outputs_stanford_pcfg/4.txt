@@ -1,0 +1,21 @@
+(ROOT
+  (S
+    (NP (NNP Kim)
+      (CC and)
+      (NNP Sandy))
+    (DT both)
+    (VP (VBD broke)
+      (PRT (RP up))
+      (PP (IN with)
+        (NP (PRP$ their) (NNS partners))))
+    (. .)))
+
+nsubj(broke-5, Kim-1)
+conj_and(Kim-1, Sandy-3)
+nsubj(broke-5, Sandy-3)
+dep(broke-5, both-4)
+root(ROOT-0, broke-5)
+prt(broke-5, up-6)
+poss(partners-9, their-8)
+prep_with(broke-5, partners-9)
+

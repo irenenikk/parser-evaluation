@@ -1,10 +1,16 @@
 # Parser evaluation
 
-This project contains everything needed to compare the perforamance between two dependency parsers: Stanford and RASP.
+This project scripts used to compare the perforamance between two dependency parsers: Stanford and RASP.
+
+## Folder structure
+
+The `inputs` folder should contain the input phrases, each in their own txt file with their unique id. These will be parsed into the `outputs` folder.
 
 ## Running experiments
 
-Use the following command to convert all sentences in the input folder to SD parses in the output folder:
+You need to instll the Stanford parser separately in order to run the experiments. You can do so from [here](http://nlp.stanford.edu/software/lex-parser.html#Download). The Berkeley parser is used as a Python package, and will be installed automatically when you run the script. 
+
+After having installed the Stanford parser, use the following command to convert all sentences in the input folder to SD parses in the output folder:
 
 **You must run it in the folder you have installed the Stanford parser**
 
@@ -14,7 +20,6 @@ Use the following command to convert all sentences in the input folder to SD par
 
 ### The stanford parser
 
-Download [here](http://nlp.stanford.edu/software/lex-parser.html#Download).
 
 Run the parser with 
 

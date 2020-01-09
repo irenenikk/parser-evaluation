@@ -1,0 +1,45 @@
+1	Thus	_	_	_	_	12	advmod	_	_
+2	the 	_	_	_	_	8	det		_	_
+3	EM-trained		_	_	_	_	8	amod		_	_
+4	“	_	_	_	_	6	punct		_	_
+5	pure	_	_	_	_	6	amod		_	_
+6	HMM	_	_	_	_	8	nn		_	_
+7	“	_	_	_	_	6	punct		_	_
+8	tagger	_	_	_	_	12	nsubjpass		_	_
+9	is	_	_	_	_	12	auxpass		_	_
+10	probably	_	_	_	_	12	advmod	_	_
+11	best	_	_	_	_	12	amod		_	_
+12	suited	_	_	_	_	0	root		_	_
+13	to	_	_	_	_	12	prep		_	_
+14	cases	_	_	_	_	13	pobj		_	_ 
+15	where	_	_	_	_	20	advmod	_	_
+16	no	_	_	_	_	18	neg		_	_
+17	training	_	_	_	_	18	nn		_	_
+18	data			_	_	_	_	20	nsubj		_	_
+19	is			_	_	_	_	20	cop		_	_
+20	available		_	_	_	_	14	rcmod		_	_
+21	,			_	_	_	_	14	punct		_	_
+22	for			_	_	_	_	14	prep		_	_
+23	example		_	_	_	_	22	pobj		_	_
+24	,			_	_	_	_	14	punct		_	_
+25	when			_	_	_	_	26	advmod	_	_
+26	tagging		_	_	_	_	12	advcl		_	_
+27	languages		_	_	_	_	26	dobj		_	_
+28	for			_	_	_	_	34	prep		_	_
+29	which			_	_	_	_	28	pobj		_	_
+30	no			_	_	_	_	31	neg		_	_
+31	data			_	_	_	_	34	nsubjpass	_	_
+32	was			_	_	_	_	34	auxpass	_	_
+33	previously		_	_	_	_	34	advmod	_	_
+34	hand-tagged	_	_	_	_	27	rcmod		_	_
+35	.			_	_	_	_	12	punct		_	_
+
+Comments:
+
+Parses are identical for about half of the phrase.
+
+The Berkeley neural parser doesn't recognise the cop "is" in "is available", the nsubj between "data" and "available", or the rcmod between "available" and "data". However, the Stanford parser can identify all these dependencies correctly. 
+
+Neither parser recognises that "tagging" in "tagging languages" is in the verbal form (and consequently tag it as an nn), although a noun compound construction would've been possible. This also results in an erronous attachment of "hand-tagged", which is marked  Also, it does not recognise the passive construction "was hand tagged", but uses a copula. It also associates "hand-tagged" as modifying "examples", although it should be modifying "languages".
+
+Both parsers associate the "for" in "for example" to "available", which can be justified. The Berkeley parser does not recognise the nature of the connection. However, it correctly recognises that there is a relationship between "hand-tagged" and "languages", but doesn't find the nature of the relationship.

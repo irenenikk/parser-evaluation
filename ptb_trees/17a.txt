@@ -1,0 +1,12 @@
+(S
+  (NP (DT The) (NNP Penn) (NNP Treebank) (NN tagset))
+  (VP
+    (VBD was)
+    (VP
+      (VBN culled)
+      (PP
+        (IN from)
+        (NP
+          (NP (DT the) (JJ original) (JJ 87-tag) (NN tagset))
+          (PP (IN for) (NP (DT the) (NNP Brown) (NN Corpus)))))))
+  (. .))

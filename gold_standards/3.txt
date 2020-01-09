@@ -1,0 +1,18 @@
+1	The	_	_	_	_	2	det	_	_
+2	horses	_	_	_	_	4	nsubjpass	_	_
+3	were	_	_	_	_	4	auxpass	_	_
+4	broken	_	_	_	_	0	root	_	_
+5	in	_	_	_	_	4	prt	_	_
+6	and	_	_	_	_	4	cc	_	_
+7	ridden	_	_	_	_	4	conj	_	_
+8	in	_	_	_	_	4	prep	_	_
+9	two	_	_	_	_	10	num	_	_
+10	weeks	_	_	_	_	8	pobj	_	_
+11	.	_	_	_	_	4	punct	_	_
+
+Comments:
+There is a potential of confusing the particle "in" in "broken in" to the preposition "in" in "in two weeks".
+Both parses treat the passive construction correctly.
+Stanford has prep(broken-4, in-5), which should be a partitive, but is otherwise correct.
+Berkeley has ridden as an aux to broken
+Both have broken as the root, which is correct, and relatively easy to detect as it's the first verb in a coordinated construction.

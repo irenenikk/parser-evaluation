@@ -1,0 +1,52 @@
+1	The	_	_	_	_	4	det	_	_
+2	slightly 	_	_	_	_	3	advmod	_	_
+3	simplified	_	_	_	_	4	amod	_	_
+4	version	_	_	_	_	12	nsubj	_	_
+5	of	_	_	_	_	4	prep	_	_
+6	the	_	_	_	_	8	det	_	_
+7	Viterbi	_	_	_	_	8	nn	_	_
+8	algorithm	_	_	_	_	5	pobj	_	_
+9	that	_	_	_	_	11	mark	_	_
+10	we	_	_	_	_	11	nsubj	_	_
+11	present	_	_	_	_	4	rcmod	_	_
+12	takes	_	_	_	_	0	root	_	_
+13	as	_	_	_	_	12	prep	_	_
+14	input	_	_	_	_	13	pobj	_	_ 
+15	a	_	_	_	_	17	det	_	_
+16	single	_	_	_	_	17	amod	_	_
+17	HMM	_	_	_	_	12	dobj	_	_
+18	and	_	_	_	_	17	cc	_	_
+19	a	_	_	_	_	20	det	_	_
+20	sequence	_	_	_	_	17	conj	_	_
+21	of	_	_	_	_	20	prep	_	_
+22	observed	_	_	_	_	23	amod	_	_
+23	words	_	_	_	_	21	pobj	_	_
+24	O=(o1,..,oT)	_	_	_	_	23	appos	_	_
+25	and	_	_	_	_	12	cc	_	_
+26	returns	_	_	_	_	12	conj	_	_
+27	the	_	_	_	_	33	det	_	_
+28	most	_	_	_	_	29	advmod	_	_
+29	probable	_	_	_	_	33	amod	_	_
+30	state	_	_	_	_	33	nn	_	_
+31	/	_	_	_	_	30	cc	_	_
+32	tag	_	_	_	_	30	conj	_	_
+33	sequence	_	_	_	_	26	dobj	_	_
+34	Q=(q1,..qT)	_	_	_	_	33	appos		_	_
+35	together	_	_	_	_	36	advmod	_	_
+36	with	_	_	_	_	33	prep	_	_
+37	its	_	_	_	_	38	poss	_	_
+38	probability	_	_	_	_	36	pobj	_	_
+39	.	_	_	_	_	12	punct	_	_
+
+Comments:
+
+The Stanford parser incorrectly identifies slightly as modifying the noun "version" instead of the adjective "simplified". It confuses "algorithm" as a verb, which is hard to justify. It confuses "present" for an adverb (in all of its parses). As "algorithm" is considered the root of the sentence (in all of the best parses), it classifies the relationship between it and "takes" as ccomp, which is consistent. In "takes as input a single HMM and a sequence..." it classifies "input" as the head of the conjunction, which is contrary to the convention presented by the guide (shown by how "and" and "sequence" are attached). It is however, able to attach "returns" correctly to "takes", which means the hierarchy of the conjunctions is correct.
+
+The Berkeley parser doesn't make the same mistakes in the beginning as Stanford (takes is root), but it does not attach "present" correctly: it is attached to "of", instead of "version" which it modifies. Unlike the Stanford parser, it recognises HMM correctly as the object of "takes" and the head of the conjunction (not input). It also deals with the conjunction between "returns" and "takes" correctly, as was the Stanford parser.
+
+Both attach "with" to the verb "return", instead of the noun "sequence" which it modifies.
+
+Neither recognises the Q=(q1,...qT) as an appos, which is not surprising (there are no indicators of this except for the parenthesis). Stanford parser treats it as the head, where the preceeding nouns are nn modifiers, which is a mistake the Berkeley parser doesn't make (it recognises "state/tag" as modifying sequence, although its interpertation of the formula is confusing). The Berkeley parser also recognises that the formulas are somehow modifying their respective heads, although it doesn't correctly define the relationship. It does not however recognise that the object of returns is "sequence", but attaches the last part of the formula to the aforementioned verb.
+
+
+

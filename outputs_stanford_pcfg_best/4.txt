@@ -1,0 +1,10 @@
+nsubj(broke-5, Kim-1)
+cc(Kim-1, and-2)
+conj(Kim-1, Sandy-3)
+dep(broke-5, both-4)
+root(ROOT-0, broke-5)
+prt(broke-5, up-6)
+prep(broke-5, with-7)
+poss(partners-9, their-8)
+pobj(with-7, partners-9)
+

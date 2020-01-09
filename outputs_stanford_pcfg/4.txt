@@ -8,3 +8,58 @@ prep(broke-5, with-7)
 poss(partners-9, their-8)
 pobj(with-7, partners-9)
 
+# Parse 1 with score -68.53876346349716
+nsubj(broke-5, Kim-1)
+cc(Kim-1, and-2)
+conj(Kim-1, Sandy-3)
+dep(broke-5, both-4)
+root(ROOT-0, broke-5)
+prt(broke-5, up-6)
+prep(broke-5, with-7)
+poss(partners-9, their-8)
+pobj(with-7, partners-9)
+
+# Parse 2 with score -71.11061424016953
+nsubj(broke-5, Kim-1)
+cc(Kim-1, and-2)
+conj(Kim-1, Sandy-3)
+dep(broke-5, both-4)
+root(ROOT-0, broke-5)
+prt(broke-5, up-6)
+prep(broke-5, with-7)
+poss(partners-9, their-8)
+pobj(with-7, partners-9)
+
+# Parse 3 with score -71.55250591039658
+nsubj(broke-5, Kim-1)
+cc(Kim-1, and-2)
+conj(Kim-1, Sandy-3)
+advmod(broke-5, both-4)
+root(ROOT-0, broke-5)
+prt(broke-5, up-6)
+prep(broke-5, with-7)
+poss(partners-9, their-8)
+pobj(with-7, partners-9)
+
+# Parse 4 with score -71.6640758079011
+nsubj(broke-5, Kim-1)
+cc(Kim-1, and-2)
+conj(Kim-1, Sandy-3)
+dep(broke-5, both-4)
+root(ROOT-0, broke-5)
+advmod(broke-5, up-6)
+prep(broke-5, with-7)
+poss(partners-9, their-8)
+pobj(with-7, partners-9)
+
+# Parse 5 with score -71.92895646509714
+nsubj(broke-5, Kim-1)
+cc(Kim-1, and-2)
+conj(Kim-1, Sandy-3)
+dep(broke-5, both-4)
+root(ROOT-0, broke-5)
+advmod(broke-5, up-6)
+prep(up-6, with-7)
+poss(partners-9, their-8)
+pobj(with-7, partners-9)
+

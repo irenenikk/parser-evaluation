@@ -13,7 +13,8 @@ prep(tagset-11, for-12)
 det(Corpus-15, the-13)
 nn(Corpus-15, Brown-14)
 pobj(for-12, Corpus-15)
-cc(culled-6, .-16)
+
+
 prep(include-25, For-17)
 pobj(For-17, example-18)
 det(Brown-21, the-19)

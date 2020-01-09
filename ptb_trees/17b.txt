@@ -1,0 +1,42 @@
+(S
+  (PP (IN For) (NP (NN example)))
+  (NP
+    (DT the)
+    (JJ original)
+    (NNP Brown)
+    (CC and)
+    (NNP C5)
+    (NNS tagsets))
+  (VP
+    (VBP include)
+    (NP
+      (NP (DT a) (JJ separate) (NN tag))
+      (PP
+        (IN for)
+        (NP
+          (NP
+            (NP (DT each))
+            (PP
+              (IN of)
+              (NP
+                (NP (DT the) (JJ different) (NNS forms))
+                (PP (IN of) (NP (DT the) (NNS verbs))))))
+          (VP
+            (VBP do)
+            (PRN
+              (-LRB- -LRB-)
+              (JJ e.g)
+              (FW .)
+              (NP
+                (NP
+                  (NP (NNP C5) (NNP tag) (NNP VDD))
+                  (PP (IN for) (NP (NNP did))))
+                (CC and)
+                (NP
+                  (NP (NNP VDG) (NN tag))
+                  (PP (IN for) (NP (VBG doing)))))
+              (-RRB- -RRB-))
+            (, ,)
+            (VP (VB be))
+            (CC and)
+            (VP (VBP have))))))))

@@ -1,0 +1,21 @@
+1	The	_	_	_	_	2	det	_	_
+2	horse	_	_	_	_	10	nsubj	_	_
+3	which	_	_	_	_	6	dobj	_	_
+4	Kim	_	_	_	_	6	nsubj	_	_
+5	sometimes	_	_	_	_	6	advmod	_	_
+6	rides	_	_	_	_	2	rcmod	_	_
+7	is	_	_	_	_	10	cop	_	_
+8	more	_	_	_	_	10	advmod	_	_
+9	bad	_	_	_	_	10	advmod	_	_
+10	tempered	_	_	_	_	0	root	_	_
+11	than	_	_	_	_	10	prep	_	_
+12	mine	_	_	_	_	11	pobj	_	_
+13	.	_	_	_	_	10	punct	_	_
+
+Comments:
+Stanford has "which" as the object of "bad", although it cannot be interpreted as a verb, which Stanford does.
+Stanford seems to interpret "rides" as the plural of a noun.
+These two incorrect assumptions are present in all of the 5 best parses of the parser.
+
+Berkeley doesn't recognise the relation between "bad" and "tempered".
+Otherwise the Berkeley result is equal to the gold standard.

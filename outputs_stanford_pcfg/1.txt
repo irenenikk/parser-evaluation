@@ -8,3 +8,58 @@ det(park-9, the-7)
 nn(park-9, car-8)
 pobj(in-6, park-9)
 
+# Parse 1 with score -58.84134525060654
+det(car-3, The-1)
+amod(car-3, old-2)
+nsubj(broke-4, car-3)
+root(ROOT-0, broke-4)
+prt(broke-4, down-5)
+prep(broke-4, in-6)
+det(park-9, the-7)
+nn(park-9, car-8)
+pobj(in-6, park-9)
+
+# Parse 2 with score -60.622999326558784
+det(car-3, The-1)
+amod(car-3, old-2)
+nsubj(broke-4, car-3)
+root(ROOT-0, broke-4)
+advmod(broke-4, down-5)
+prep(broke-4, in-6)
+det(park-9, the-7)
+nn(park-9, car-8)
+pobj(in-6, park-9)
+
+# Parse 3 with score -60.91132487473078
+det(car-3, The-1)
+amod(car-3, old-2)
+nsubj(broke-4, car-3)
+root(ROOT-0, broke-4)
+prt(broke-4, down-5)
+prep(broke-4, in-6)
+det(park-9, the-7)
+nn(park-9, car-8)
+pobj(in-6, park-9)
+
+# Parse 4 with score -61.20538105187006
+det(car-3, The-1)
+amod(car-3, old-2)
+nsubj(broke-4, car-3)
+root(ROOT-0, broke-4)
+advmod(broke-4, down-5)
+prep(down-5, in-6)
+det(park-9, the-7)
+nn(park-9, car-8)
+pobj(in-6, park-9)
+
+# Parse 5 with score -61.47272648033686
+det(car-3, The-1)
+amod(car-3, old-2)
+nsubj(broke-4, car-3)
+root(ROOT-0, broke-4)
+advmod(broke-4, down-5)
+prep(broke-4, in-6)
+det(park-9, the-7)
+nn(park-9, car-8)
+pobj(in-6, park-9)
+

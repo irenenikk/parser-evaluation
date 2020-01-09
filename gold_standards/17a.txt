@@ -1,0 +1,20 @@
+1	The	_	_	_	_	4	det	_	_
+2	Penn	_	_	_	_	4	nn	_	_
+3	Treebank	_	_	_	_	4	nn	_	_
+4	tagset	_	_	_	_	6	nsubjpass	_	_
+5	was	_	_	_	_	6	auxpass	_	_
+6	culled	_	_	_	_	0	root	_	_
+7	from	_	_	_	_	6	prt	_	_
+8	the	_	_	_	_	11	det	_	_
+9	original	_	_	_	_	11	amod	_	_
+10	87-tag	_	_	_	_	11	amod	_	_
+11	tagset	_	_	_	_	7	pobj	_	_
+12	for	_	_	_	_	11 	prep	_	_
+13	the	_	_	_	_	15	det	_	_ 
+14	Brown	_	_	_	_	15	nn	_	_
+15	Corpus	_	_	_	_	12	pobj	_	_
+16	.	_	_	_	_	6	punct	_	_
+
+Comments: 
+
+Both parses are exactly the same for the first sentence.

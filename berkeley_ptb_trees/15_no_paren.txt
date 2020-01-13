@@ -1,0 +1,27 @@
+(S
+  (NP (NNP English))
+  (ADVP (RB also))
+  (VP
+    (VBZ has)
+    (NP
+      (NP (JJ many) (NNS words))
+      (PP
+        (IN of)
+        (NP
+          (ADJP (ADJP (JJR more) (CC or) (JJR less)) (JJ unique))
+          (NN function)))
+      (, ,)
+      (PP
+        (VBG including)
+        (NP
+          (NP (NNS interjections))
+          (, ,)
+          (NP (NNS negatives))
+          (, ,)
+          (NP (NN politeness) (NNS markers))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (DT the) (JJ existential) (`` ‘) (RB there) ('' ’))
+            (PP (IN among) (NP (NNS others))))))))
+  (. .))

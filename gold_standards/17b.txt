@@ -18,8 +18,8 @@
 18	forms	_	_	_	_	13	pobj	_	_
 19	of	_	_	_	_	18	prep	_	_
 20	the	_	_	_	_	21	det	_	_
-21	verbs	_	_	_	_	22	nn	_	_
-22	do	_	_	_	_	19 	pobj	_	_
+21	verbs	_	_	_	_	19	pobj	_	_
+22	do	_	_	_	_	21 	appos	_	_
 23	(	_	_	_	_	22	punct	_	_ 
 24	e.g.	_	_	_	_	27	nn	_	_
 25	C5	_	_	_	_	27	nn	_	_
@@ -44,13 +44,8 @@ Comments:
 Berkeley gets dobj(include, tag) correct.
 Stanford gets "tag" as the subject of "do", which corresponds to use instead of mention.
 
-Berkeley has "do" as the aux of "be", and associates the full stop of the sentence with VDD for some reason (this is exceptional behaviour, which may not appear with rule-based algorithms such as Stanford?). Berkeley doesn't associate the head of the parenthetical to do, which it immediately follows. Instead, it associates it with "be", with an undefined dependency. However, it gets the end of the sentence correclty. It also detects an undefined connection between the head of the constituent "be and have" and "each", which could be a semantically sound parse, just not the most intuitive one.
+Berkeley has "do" as the aux of "be", and associates the full stop of the sentence with VDD for some reason (this is exceptional behaviour, which may not appear with rule-based algorithms such as Stanford?). Berkeley doesn't associate the head of the parenthetical to do, which it immediately follows. Instead, it associates it with "be", with an undefined dependency. However, it gets the end of the sentence correclty. It also detects an undefined connection between the head of the constituent "be and have" and "each", which could be a justified choice.
 
 The Stanford parser classifies "do" as a ccomp to "include", "tag" as the subject of "do", "VDD" as the subject for "did", and "for doing" as a pcomp. Again this is a case of confusing use with mention. It also classifies the parenthetical as a parataxis, although the dependency guide explicitly states examples are appositional modifiers. This seems like a less fatal mistake than the one Made by Berkeley, which doesn't even associate the parenthetical with the correct noun ("do").
 
 Recognising the relationship of "e.g." with other constituents is difficult for the parsers, but it is also difficult for a human. Berkeley has it as an undefined relationship, Stanford is close by classifying it as an nn to VDD, which there are arguments for.
-
-
-
-
-

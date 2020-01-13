@@ -1,0 +1,12 @@
+1	The	_	DET	DT	_	2	det	_	_
+2	horses	_	NOUN	NNS	_	4	nsubjpass	_	_
+3	were	_	AUX	VBD	_	4	auxpass	_	_
+4	broken	_	VERB	VBN	_	0	root	_	_
+5	in	_	ADP	IN	_	4	prt	_	_
+6	and	_	CONJ	CC	_	4	cc	_	_
+7	ridden	_	VERB	VBN	_	4	aux	_	_
+8	in	_	ADP	IN	_	4	prep	_	_
+9	two	_	NUM	CD	_	10	num	_	_
+10	weeks	_	NOUN	NNS	_	8	pobj	_	_
+11	.	_	PUNCT	.	_	4	punct	_	_
+

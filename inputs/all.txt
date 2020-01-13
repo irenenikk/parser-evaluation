@@ -1,0 +1,28 @@
+The old car broke down in the car park.
+English also has many words of more or less unique function, including interjections (oh, ah), negatives (no, not), politeness markers (please, thank you), and the existential ‘there’ (there are horses but not unicorns) among others.
+English also has many words of more or less unique function, including interjections, negatives, politeness markers, and the existential ‘there’ among others.
+Making these decisions requires sophisticated knowledge of syntax; tagging manuals (Santorini, 1990) give various heuristics that can help human coders make these decisions and
+that can also provide useful features for automatic taggers.
+The Penn Treebank tagset was culled from the original 87-tag tagset for the Brown Corpus.
+For example the original Brown and C5 tagsets include a separate tag for each of the different
+forms of the verbs do (e.g. C5 tag VDD for did and VDG tag for doing), be and have
+The slightly simplified version of the Viterbi algorithm that we present takes as input a single
+HMM and a sequence of observed words O = (o1,o2,...oT) and returns the most probable
+state/tag sequence Q = (q1,q2,qT) together with its probability.
+Thus the EM-trained "pure HMM" tagger is probably best suited to cases where no training data is available, for example, when tagging languages for which no data was previously
+hand-tagged.
+At least two men broke in and stole my TV.
+Skill without imagination is craftsmanship and gives us many useful objects such as wickerwork picnic baskets. Imagination without skill gives us modern art.
+Instead of constantly worrying about funding, the faculty and students can focus on theirproject, with the exception of sponsors’ weeks, when they have to convince companies to start or continue their support.
+The horses were broken in and ridden in two weeks.
+Kim and Sandy both broke up with their partners.
+The horse which Kim sometimes rides is more bad tempered than mine.
+The horse as well as the rabbits which we wanted to eat have escaped
+It was my aunt’s car which we sold at auction last year in February.
+The only rabbit that I ever liked was eaten by my parents one summer.
+The most important words in French are you're welcome(je vous en prie, de rien), or thank you (merci, je vous remercie) and goodbye (salut, au revoir)
+Could you please go by some bread (wholegrain, not rye), milk (non-fat), flour and eggs from the store.
+My favorite words are create, love (although I'm not a romantic person) and destroy.
+My favorite words are create (like in art), love (but not the romantic kind) and destroy.
+The woman shut up and went down the stairs.
+It is a sound argument which sounds alright, although I hate the sound of your voice.

@@ -1,0 +1,10 @@
+det(horses-2, The-1)
+nsubjpass(broken-4, horses-2)
+auxpass(broken-4, were-3)
+root(ROOT-0, broken-4)
+prt(broken-4, in-5)
+prep(broken-4, in-6)
+num(weeks-8, two-7)
+pobj(in-6, weeks-8)
+punct(broken-4, .-9)
+

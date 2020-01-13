@@ -6,7 +6,7 @@
 6	the	_	_	_	_	8	det	_	_
 7	Viterbi	_	_	_	_	8	nn	_	_
 8	algorithm	_	_	_	_	5	pobj	_	_
-9	that	_	_	_	_	11	mark	_	_
+9	that	_	_	_	_	11	dobj	_	_
 10	we	_	_	_	_	11	nsubj	_	_
 11	present	_	_	_	_	4	rcmod	_	_
 12	takes	_	_	_	_	0	root	_	_
@@ -40,11 +40,13 @@
 
 Comments:
 
-The Stanford parser incorrectly identifies slightly as modifying the noun "version" instead of the adjective "simplified". It confuses "algorithm" as a verb, which is hard to justify. It confuses "present" for an adverb (in all of its parses). As "algorithm" is considered the root of the sentence (in all of the best parses), it classifies the relationship between it and "takes" as ccomp, which is consistent. In "takes as input a single HMM and a sequence..." it classifies "input" as the head of the conjunction, which is contrary to the convention presented by the guide (shown by how "and" and "sequence" are attached). It is however, able to attach "returns" correctly to "takes", which means the hierarchy of the conjunctions is correct.
+This is a sentence with coordinations on several levels.
 
-The Berkeley parser doesn't make the same mistakes in the beginning as Stanford (takes is root), but it does not attach "present" correctly: it is attached to "of", instead of "version" which it modifies. Unlike the Stanford parser, it recognises HMM correctly as the object of "takes" and the head of the conjunction (not input). It also deals with the conjunction between "returns" and "takes" correctly, as was the Stanford parser.
+The Stanford parser incorrectly identifies slightly as modifying the noun "version" instead of the adjective "simplified". It confuses "algorithm" as a verb, which is hard to justify. It confuses "present" for an adverb (in all of its parses). As "algorithm" is considered the root of the sentence (in all of the best parses), it classifies the relationship between it and "takes" as ccomp, which is consistent with algorithm being a verb. In "takes as input a single HMM and a sequence..." it classifies "input" as the head of the conjunction, which means that the coordination of "and" is being misinterpreted (and which is contrary to the convention presented by the guide and shown by how "and" and "sequence" are attached). It is however, able to attach "returns" correctly to "takes", which means the hierarchy of the conjunctions is correct.
 
-Both attach "with" to the verb "return", instead of the noun "sequence" which it modifies.
+The Berkeley parser doesn't make the same mistakes in the beginning as Stanford (takes is root), but it does not attach "present" correctly: it is attached to "of", instead of "version" which is its object. Unlike the Stanford parser, it recognises HMM correctly as the object of "takes" and the head of the conjunction (not input). It also deals with the conjunction between "returns" and "takes" correctly, as did the Stanford parser.
+
+Both attach "with" to the verb "return", instead of the noun "sequence" which it modifies. This could also be an error in the gold standard.
 
 Neither recognises the Q=(q1,...qT) as an appos, which is not surprising (there are no indicators of this except for the parenthesis). Stanford parser treats it as the head, where the preceeding nouns are nn modifiers, which is a mistake the Berkeley parser doesn't make (it recognises "state/tag" as modifying sequence, although its interpertation of the formula is confusing). The Berkeley parser also recognises that the formulas are somehow modifying their respective heads, although it doesn't correctly define the relationship. It does not however recognise that the object of returns is "sequence", but attaches the last part of the formula to the aforementioned verb.
 

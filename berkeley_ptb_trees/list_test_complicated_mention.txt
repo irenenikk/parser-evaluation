@@ -1,0 +1,22 @@
+(S
+  (NP (PRP$ My) (JJ favorite) (NNS words))
+  (VP
+    (VBP are)
+    (VP
+      (VB create)
+      (, ,)
+      (VB love)
+      (PRN
+        (-LRB- -LRB-)
+        (SBAR
+          (IN although)
+          (S
+            (NP (PRP I))
+            (VP
+              (VBP 'm)
+              (RB not)
+              (NP (DT a) (JJ romantic) (NN person)))))
+        (-RRB- -RRB-))
+      (CC and)
+      (VB destroy)))
+  (. .))

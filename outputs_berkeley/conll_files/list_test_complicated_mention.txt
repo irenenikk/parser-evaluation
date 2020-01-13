@@ -1,0 +1,20 @@
+1	My	_	PRON	PRP$	_	3	poss	_	_
+2	favorite	_	ADJ	JJ	_	3	amod	_	_
+3	words	_	NOUN	NNS	_	5	nsubj	_	_
+4	are	_	AUX	VBP	_	5	aux	_	_
+5	create	_	VERB	VB	_	0	root	_	_
+6	,	_	PUNCT	,	_	5	punct	_	_
+7	love	_	VERB	VB	_	5	conj	_	_
+8	-LRB-	_	PUNCT	-LRB-	_	15	punct	_	_
+9	although	_	SCONJ	IN	_	15	mark	_	_
+10	I	_	PRON	PRP	_	15	nsubj	_	_
+11	'm	_	VERB	VBP	_	15	cop	_	_
+12	not	_	PART	RB	_	15	neg	_	_
+13	a	_	DET	DT	_	15	det	_	_
+14	romantic	_	ADJ	JJ	_	15	amod	_	_
+15	person	_	NOUN	NN	_	5	parataxis	_	_
+16	-RRB-	_	PUNCT	-RRB-	_	15	punct	_	_
+17	and	_	CONJ	CC	_	5	cc	_	_
+18	destroy	_	VERB	VB	_	5	conj	_	_
+19	.	_	PUNCT	.	_	5	punct	_	_
+

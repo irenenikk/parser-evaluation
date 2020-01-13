@@ -1,0 +1,10 @@
+(S
+  (NP (DT The) (NN house))
+  (VP
+    (VBD was)
+    (VP
+      (VP (VBN packed) (PRT (RP up)))
+      (CC and)
+      (VP (VBN cleaned))
+      (PP (IN in) (NP (DT a) (CD two) (NNS days)))))
+  (. .))

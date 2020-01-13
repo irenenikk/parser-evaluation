@@ -1,0 +1,66 @@
+1	The	_	DET	DT	_	2	det	_	_
+2	woman	_	NOUN	NN	_	3	nsubj	_	_
+3	shut	_	VERB	VBD	_	0	root	_	_
+4	up	_	ADP	RP	_	3	prt	_	_
+5	and	_	CONJ	CC	_	3	cc	_	_
+6	went	_	VERB	VBD	_	3	conj	_	_
+7	down	_	ADP	RP	_	6	prt	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	stairs	_	NOUN	NNS	_	6	dobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+
+1	The	_	DET	DT	_	2	det	_	_
+2	woman	_	NOUN	NN	_	3	nsubj	_	_
+3	shut	_	VERB	VBD	_	0	root	_	_
+4	up	_	ADP	RP	_	3	prt	_	_
+5	and	_	CONJ	CC	_	3	cc	_	_
+6	went	_	VERB	VBD	_	3	conj	_	_
+7	down	_	ADP	RP	_	6	prt	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	stairs	_	NOUN	NNS	_	6	dobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+
+1	The	_	DET	DT	_	2	det	_	_
+2	woman	_	NOUN	NN	_	3	nsubj	_	_
+3	shut	_	VERB	VBD	_	0	root	_	_
+4	up	_	ADP	RP	_	3	prt	_	_
+5	and	_	CONJ	CC	_	3	cc	_	_
+6	went	_	VERB	VBD	_	3	conj	_	_
+7	down	_	ADP	RP	_	6	prt	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	stairs	_	NOUN	NN	_	6	dobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+
+1	The	_	DET	DT	_	2	det	_	_
+2	woman	_	NOUN	NN	_	3	nsubj	_	_
+3	shut	_	VERB	VBD	_	0	root	_	_
+4	up	_	ADV	RB	_	3	advmod	_	_
+5	and	_	CONJ	CC	_	3	cc	_	_
+6	went	_	VERB	VBD	_	3	conj	_	_
+7	down	_	ADP	RP	_	6	prt	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	stairs	_	NOUN	NNS	_	6	dobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+
+1	The	_	DET	DT	_	2	det	_	_
+2	woman	_	NOUN	NN	_	3	nsubj	_	_
+3	shut	_	VERB	VBD	_	0	root	_	_
+4	up	_	ADP	RP	_	3	prt	_	_
+5	and	_	CONJ	CC	_	3	cc	_	_
+6	went	_	VERB	VBD	_	3	conj	_	_
+7	down	_	ADP	IN	_	6	prt	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	stairs	_	NOUN	NNS	_	6	dobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+
+1	The	_	DET	DT	_	2	det	_	_
+2	woman	_	NOUN	NN	_	3	nsubj	_	_
+3	shut	_	VERB	VBD	_	0	root	_	_
+4	up	_	ADP	RP	_	3	prt	_	_
+5	and	_	CONJ	CC	_	3	cc	_	_
+6	went	_	VERB	VBD	_	3	conj	_	_
+7	down	_	ADV	RB	_	6	prt	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	stairs	_	NOUN	NNS	_	6	dobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+

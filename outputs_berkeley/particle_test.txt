@@ -1,0 +1,8 @@
+root(ROOT-0, Shut-1)
+prt(Shut-1, up-2)
+cc(Shut-1, and-3)
+conj(Shut-1, eat-4)
+poss(breakfast-6, your-5)
+dobj(eat-4, breakfast-6)
+punct(Shut-1, .-7)
+

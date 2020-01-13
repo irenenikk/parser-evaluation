@@ -1,0 +1,6 @@
+(S
+  (VP
+    (VP (VB Shut) (PRT (RB up)))
+    (CC and)
+    (VP (VB eat) (NP (PRP$ your) (NN breakfast))))
+  (. .))

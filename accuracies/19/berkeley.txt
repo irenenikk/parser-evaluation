@@ -1,0 +1,16 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/19.txt -g gold_standard_fixed/sentence_19.txt
+====================================================
+Gold:   gold_standard_fixed/sentence_19.txt
+Parsed: outputs_berkeley/conll_files/19.txt
+====================================================
+GroupBy-> Token
+Metric-> LAS
+
+====================================================
+
+accuracy /    Token
+-----------------------
+0.486         Row mean
+35            Row count
+-----------------------
+

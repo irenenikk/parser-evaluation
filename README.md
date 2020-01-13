@@ -32,11 +32,25 @@ Run the parser with
 First get the parse in a PTB format:
 
 ```
-python benepar/parse.py inputs/xx.txt > ptb_trees/xx.txt
+python benepar/parse.py inputs/xx.txt > berkeley_ptb_trees/xx.txt
 ```
 
 Then change into Stanford Dependency (this should be run in the Stanford directory):
 
 ```
-./convert_ptb_to_sd.sh ../ptb_trees/xx.txt > ../outputs_berkeley/xx.txt
+./convert_ptb_to_sd.sh ../berkeley_ptb_trees/xx.txt > ../outputs_berkeley/xx.txt
+```
+
+//TODO: 
+
+### Running all the parser
+
+### Conversion scripts
+
+### Quantitative evaluation
+
+#### Runnin MaltEval
+
+```
+java -jar maltEval/lib/MaltEval.jar -s outputs_berkeley/conll_files/15.txt -g gold_standard_fixed/sentence_15.txt
 ```

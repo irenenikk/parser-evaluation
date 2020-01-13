@@ -1,0 +1,58 @@
+1	English-1	_	has-3,	has-3,	_	0	root	_	_
+
+1	also-2	_	has-3,	has-3,	_	0	root	_	_
+
+1	has-3	_	ROOT-0,	ROOT-0,	_	0	root	_	_
+
+1	many-4	_	words-5,	words-5,	_	0	root	_	_
+
+1	words-5	_	has-3,	has-3,	_	0	root	_	_
+
+1	of-6	_	words-5,	words-5,	_	0	root	_	_
+
+1	more-7	_	unique-10,	unique-10,	_	0	root	_	_
+
+1	or-8	_	more-7,	more-7,	_	0	root	_	_
+
+1	less-9	_	more-7,	more-7,	_	0	root	_	_
+
+1	unique-10	_	function-11,	function-11,	_	0	root	_	_
+
+1	function-11	_	of-6,	of-6,	_	0	root	_	_
+
+1	,-12	_	words-5,	words-5,	_	0	root	_	_
+
+1	including-13	_	words-5,	words-5,	_	0	root	_	_
+
+1	interjections-14	_	including-13,	including-13,	_	0	root	_	_
+
+1	,-15	_	interjections-14,	interjections-14,	_	0	root	_	_
+
+1	negatives-16	_	interjections-14,	interjections-14,	_	0	root	_	_
+
+1	,-17	_	interjections-14,	interjections-14,	_	0	root	_	_
+
+1	politeness-18	_	markers-19,	markers-19,	_	0	root	_	_
+
+1	markers-19	_	interjections-14,	interjections-14,	_	0	root	_	_
+
+1	,-20	_	interjections-14,	interjections-14,	_	0	root	_	_
+
+1	and-21	_	interjections-14,	interjections-14,	_	0	root	_	_
+
+1	the-22	_	there-25,	there-25,	_	0	root	_	_
+
+1	existential-23	_	there-25,	there-25,	_	0	root	_	_
+
+1	‘-24	_	there-25,	there-25,	_	0	root	_	_
+
+1	there-25	_	interjections-14,	interjections-14,	_	0	root	_	_
+
+1	’-26	_	there-25,	there-25,	_	0	root	_	_
+
+1	among-27	_	there-25,	there-25,	_	0	root	_	_
+
+1	others-28	_	among-27,	among-27,	_	0	root	_	_
+
+1	.-29	_	has-3,	has-3,	_	0	root	_	_
+

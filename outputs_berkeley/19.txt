@@ -1,7 +1,7 @@
 advmod(suited-12, Thus-1)
 det(tagger-8, the-2)
 amod(tagger-8, EM-trained-3)
-punct(tagger-8, “-4)
+punct(tagger-8, "-4)
 amod(tagger-8, pure-5)
 nn(tagger-8, HMM-6)
 punct(tagger-8, ”-7)

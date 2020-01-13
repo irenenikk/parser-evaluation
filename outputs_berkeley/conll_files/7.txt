@@ -1,0 +1,16 @@
+1	It	_	PRON	PRP	_	7	nsubj	_	_
+2	was	_	VERB	VBD	_	7	cop	_	_
+3	my	_	PRON	PRP$	_	4	poss	_	_
+4	aunt	_	NOUN	NN	_	7	poss	_	_
+6	's	_	PART	POS	_	4	possessive	_	_
+7	car	_	NOUN	NN	_	0	root	_	_
+8	which	_	PRON	WDT	_	10	dobj	_	_
+9	we	_	PRON	PRP	_	10	nsubj	_	_
+10	sold	_	VERB	VBD	_	7	rcmod	_	_
+11	at	_	ADP	IN	_	10	prep	_	_
+12	auction	_	NOUN	NN	_	11	pobj	_	_
+13	last	_	ADJ	JJ	_	14	amod	_	_
+14	year	_	NOUN	NN	_	10	tmod	_	_
+15	in	_	ADP	IN	_	10	prep	_	_
+16	February	_	PROPN	NNP	_	15	pobj	_	_
+17	.	_	PUNCT	.	_	7	punct	_	_

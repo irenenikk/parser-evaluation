@@ -1,0 +1,15 @@
+1	The	_	DET	DT	_	3	det	_	_
+2	only	_	ADJ	JJ	_	3	amod	_	_
+3	rabbit	_	NOUN	NN	_	9	nsubjpass	_	_
+4	that	_	SCONJ	IN	_	7	mark	_	_
+5	I	_	PRON	PRP	_	7	nsubj	_	_
+6	ever	_	ADV	RB	_	7	advmod	_	_
+7	liked	_	VERB	VBD	_	3	dep	_	_
+8	was	_	AUX	VBD	_	9	auxpass	_	_
+9	eaten	_	VERB	VBN	_	0	root	_	_
+10	by	_	ADP	IN	_	9	prep	_	_
+11	my	_	PRON	PRP$	_	12	poss	_	_
+12	parents	_	NOUN	NNS	_	10	pobj	_	_
+13	one	_	NUM	CD	_	14	num	_	_
+14	summer	_	NOUN	NN	_	9	tmod	_	_
+15	.	_	PUNCT	.	_	9	punct	_	_

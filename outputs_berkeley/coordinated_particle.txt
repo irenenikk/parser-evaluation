@@ -1,0 +1,13 @@
+det(house-2, The-1)
+nsubjpass(packed-4, house-2)
+auxpass(packed-4, was-3)
+root(ROOT-0, packed-4)
+prt(packed-4, up-5)
+cc(packed-4, and-6)
+conj(packed-4, cleaned-7)
+prep(packed-4, in-8)
+det(days-11, a-9)
+num(days-11, two-10)
+pobj(in-8, days-11)
+punct(packed-4, .-12)
+

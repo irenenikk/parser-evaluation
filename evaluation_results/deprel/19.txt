@@ -1,0 +1,60 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/19.txt outputs_stanford_pcfg_best/conll_files/19.txt -g gold_standard_fixed/sentence_19.txt --GroupBy Deprel --Metric self
+====================================================
+Gold:   gold_standard_fixed/sentence_19.txt
+Parsed: outputs_berkeley/conll_files/19.txt
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+-              0           -           advcl
+0.833          1           0.909       advmod
+0.667          0.5         0.571       amod
+-              0           -           aux
+0.5            1           0.667       auxpass
+-              0           -           cop
+0              -           -           dep
+1              1           1           det
+-              0           -           dobj
+1              1           1           neg
+0.5            1           0.667       nn
+-              0           -           nsubj
+0.5            1           0.667       nsubjpass
+0.667          1           0.8         pobj
+1              0.667       0.8         prep
+1              1           1           punct
+-              0           -           rcmod
+1              1           1           root
+
+====================================================
+Gold:   gold_standard_fixed/sentence_19.txt
+Parsed: outputs_stanford_pcfg_best/conll_files/19.txt
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+-              0           -           advcl
+0.833          1           0.909       advmod
+0.667          0.5         0.571       amod
+-              0           -           aux
+0              0           -           auxpass
+0.5            1           0.667       cop
+1              1           1           det
+1              0.5         0.667       dobj
+1              1           1           neg
+0.5            1           0.667       nn
+0.5            0.5         0.5         nsubj
+0              0           -           nsubjpass
+0.667          1           0.8         pobj
+1              1           1           prep
+1              1           1           punct
+0.5            1           0.667       rcmod
+1              1           1           root
+

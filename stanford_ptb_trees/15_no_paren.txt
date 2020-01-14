@@ -1,0 +1,193 @@
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP (NNS interjections))
+            (, ,)
+            (NP (NNS negatives))
+            (, ,)
+            (NP (JJ politeness) (NNS markers))
+            (, ,)
+            (CC and)
+            (NP (DT the) (NN existential)))))
+      (PP (`` `)
+        (ADVP (RB there))
+        ('' ') (IN among)
+        (NP (NNS others))))
+    (. .)))
+
+# Parse 1 with score -207.31416934728622
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP (NNS interjections))
+            (, ,)
+            (NP (NNS negatives))
+            (, ,)
+            (NP (JJ politeness) (NNS markers))
+            (, ,)
+            (CC and)
+            (NP (DT the) (NN existential)))))
+      (PP (`` `)
+        (ADVP (RB there))
+        ('' ') (IN among)
+        (NP (NNS others))))
+    (. .)))
+
+# Parse 2 with score -207.58659984287806
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (NP
+              (ADJP
+                (ADJP (JJR more))
+                (CC or)
+                (ADJP (RBR less) (JJ unique)))
+              (NN function))
+            (, ,)
+            (PP (VBG including)
+              (NP
+                (NP (NNS interjections))
+                (, ,)
+                (NP (NNS negatives))
+                (, ,)
+                (NP (JJ politeness) (NNS markers))
+                (, ,)
+                (CC and)
+                (NP (DT the) (NN existential)))))))
+      (PP (`` `)
+        (ADVP (RB there))
+        ('' ') (IN among)
+        (NP (NNS others))))
+    (. .)))
+
+# Parse 3 with score -207.89655257329287
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP (NNS interjections))
+            (, ,)
+            (NP (NNS negatives))
+            (, ,)
+            (NP (NNS politeness) (NNS markers))
+            (, ,)
+            (CC and)
+            (NP (DT the) (NN existential)))))
+      (PP (`` `)
+        (ADVP (RB there))
+        ('' ') (IN among)
+        (NP (NNS others))))
+    (. .)))
+
+# Parse 4 with score -208.16896940335573
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (NP
+              (ADJP
+                (ADJP (JJR more))
+                (CC or)
+                (ADJP (RBR less) (JJ unique)))
+              (NN function))
+            (, ,)
+            (PP (VBG including)
+              (NP
+                (NP (NNS interjections))
+                (, ,)
+                (NP (NNS negatives))
+                (, ,)
+                (NP (NNS politeness) (NNS markers))
+                (, ,)
+                (CC and)
+                (NP (DT the) (NN existential)))))))
+      (PP (`` `)
+        (ADVP (RB there))
+        ('' ') (IN among)
+        (NP (NNS others))))
+    (. .)))
+
+# Parse 5 with score -208.18965030774416
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP (NNS interjections))
+            (, ,)
+            (NP (NNS negatives))
+            (, ,)
+            (NP (NN politeness) (NNS markers))
+            (, ,)
+            (CC and)
+            (NP (DT the) (NN existential)))))
+      (PP (`` `)
+        (ADVP (RB there))
+        ('' ') (IN among)
+        (NP (NNS others))))
+    (. .)))
+

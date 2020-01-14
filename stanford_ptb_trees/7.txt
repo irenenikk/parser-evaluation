@@ -1,0 +1,121 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP$ my) (NN aunt) (POS 's))
+        (NN car)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD sold)
+              (PP (IN at)
+                (NP (NN auction)))
+              (NP (JJ last) (NN year))
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+
+# Parse 1 with score -98.38143771886826
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP$ my) (NN aunt) (POS 's))
+        (NN car)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD sold)
+              (PP (IN at)
+                (NP (NN auction)))
+              (NP (JJ last) (NN year))
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+
+# Parse 2 with score -99.25630821404047
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP
+          (NP (PRP$ my) (NN aunt) (POS 's))
+          (NN car))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD sold)
+              (PP (IN at)
+                (NP (NN auction)))
+              (NP (JJ last) (NN year))
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+
+# Parse 3 with score -100.05698789772578
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP$ my) (NN aunt) (POS 's))
+        (NN car)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD sold)
+              (PP (IN at)
+                (NP (NN auction)))
+              (NP (JJ last) (NN year))
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+
+# Parse 4 with score -100.53281845268793
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP
+          (NP (PRP$ my) (NN aunt) (POS 's))
+          (NN car))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD sold)
+              (PP (IN at)
+                (NP (NN auction)))
+              (NP (JJ last) (NN year))
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+
+# Parse 5 with score -101.41201795754023
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP$ my) (NN aunt) (POS 's))
+        (NN car)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD sold)
+              (PP (IN at)
+                (NP (NN auction)))
+              (NP (JJ last) (NN year))
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+

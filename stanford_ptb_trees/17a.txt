@@ -1,0 +1,76 @@
+(ROOT
+  (S
+    (NP (DT The) (NNP Penn) (NNP Treebank) (NN tagset))
+    (VP (VBD was)
+      (VP (VBN culled)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (JJ original) (JJ 87-tag) (NN tagset))
+            (PP (IN for)
+              (NP (DT the) (NNP Brown) (NNP Corpus)))))))
+    (. .)))
+
+# Parse 1 with score -128.12721866369247
+(ROOT
+  (S
+    (NP (DT The) (NNP Penn) (NNP Treebank) (NN tagset))
+    (VP (VBD was)
+      (VP (VBN culled)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (JJ original) (JJ 87-tag) (NN tagset))
+            (PP (IN for)
+              (NP (DT the) (NNP Brown) (NNP Corpus)))))))
+    (. .)))
+
+# Parse 2 with score -129.18864502129145
+(ROOT
+  (S
+    (NP (DT The) (NNP Penn) (NNP Treebank) (NN tagset))
+    (VP (VBD was)
+      (VP (VBN culled)
+        (PP (IN from)
+          (NP (DT the) (JJ original) (JJ 87-tag) (NN tagset)))
+        (PP (IN for)
+          (NP (DT the) (NNP Brown) (NNP Corpus)))))
+    (. .)))
+
+# Parse 3 with score -130.8155729174614
+(ROOT
+  (S
+    (NP (DT The) (NNP Penn) (NNP Treebank) (NNP tagset))
+    (VP (VBD was)
+      (VP (VBN culled)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (JJ original) (JJ 87-tag) (NN tagset))
+            (PP (IN for)
+              (NP (DT the) (NNP Brown) (NNP Corpus)))))))
+    (. .)))
+
+# Parse 4 with score -131.10127557930537
+(ROOT
+  (S
+    (NP (DT The) (NNP Penn) (NNP Treebank) (NN tagset))
+    (VP (VBD was)
+      (VP (VBN culled)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (JJ original) (JJ 87-tag) (NN tagset))
+            (PP (IN for)
+              (NP (DT the) (NNP Brown) (NN Corpus)))))))
+    (. .)))
+
+# Parse 5 with score -131.6422445178032
+(ROOT
+  (S
+    (NP (DT The) (NNP Penn) (NN Treebank) (NN tagset))
+    (VP (VBD was)
+      (VP (VBN culled)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (JJ original) (JJ 87-tag) (NN tagset))
+            (PP (IN for)
+              (NP (DT the) (NNP Brown) (NNP Corpus)))))))
+    (. .)))
+

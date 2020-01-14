@@ -1,0 +1,206 @@
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (DT the) (JJ EM-trained) (`` ``) (JJ pure) (NN HMM) ('' '') (NN tagger))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (VP
+        (ADVP (RBS best))
+        (VBN suited)
+        (PP (TO to)
+          (NP
+            (NP (NNS cases))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT no) (NN training) (NNS data))
+                (VP (VBZ is)
+                  (ADJP (JJ available))
+                  (, ,)
+                  (PP (IN for)
+                    (NP
+                      (NP (NN example))
+                      (, ,)
+                      (SBAR
+                        (WHNP
+                          (NP (WRB when) (JJ tagging) (NNS languages))
+                          (WHPP (IN for)
+                            (WHNP (WDT which))))
+                        (S
+                          (NP (DT no) (NNS data))
+                          (VP (VBD was)
+                            (ADJP (RB previously) (JJ hand-tagged))))))))))))))
+    (. .)))
+
+# Parse 1 with score -258.2780365347862
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (DT the) (JJ EM-trained) (`` ``) (JJ pure) (NN HMM) ('' '') (NN tagger))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (VP
+        (ADVP (RBS best))
+        (VBN suited)
+        (PP (TO to)
+          (NP
+            (NP (NNS cases))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT no) (NN training) (NNS data))
+                (VP (VBZ is)
+                  (ADJP (JJ available))
+                  (, ,)
+                  (PP (IN for)
+                    (NP
+                      (NP (NN example))
+                      (, ,)
+                      (SBAR
+                        (WHNP
+                          (NP (WRB when) (JJ tagging) (NNS languages))
+                          (WHPP (IN for)
+                            (WHNP (WDT which))))
+                        (S
+                          (NP (DT no) (NNS data))
+                          (VP (VBD was)
+                            (ADJP (RB previously) (JJ hand-tagged))))))))))))))
+    (. .)))
+
+# Parse 2 with score -258.55600039777346
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (DT the) (JJ EM-trained) (`` ``) (JJ pure) (NN HMM) ('' '') (NN tagger))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (VP
+        (ADVP (RB best))
+        (VBN suited)
+        (PP (TO to)
+          (NP
+            (NP (NNS cases))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT no) (NN training) (NNS data))
+                (VP (VBZ is)
+                  (ADJP (JJ available))
+                  (, ,)
+                  (PP (IN for)
+                    (NP
+                      (NP (NN example))
+                      (, ,)
+                      (SBAR
+                        (WHNP
+                          (NP (WRB when) (JJ tagging) (NNS languages))
+                          (WHPP (IN for)
+                            (WHNP (WDT which))))
+                        (S
+                          (NP (DT no) (NNS data))
+                          (VP (VBD was)
+                            (ADJP (RB previously) (JJ hand-tagged))))))))))))))
+    (. .)))
+
+# Parse 3 with score -258.7605015200097
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (DT the) (JJ EM-trained) (`` ``) (JJ pure) (NN HMM) ('' '') (NN tagger))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (VP
+        (ADVP (RBS best))
+        (VBN suited)
+        (PP (TO to)
+          (NP (NNS cases)
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT no) (NN training) (NNS data))
+                (VP (VBZ is)
+                  (ADJP (JJ available))
+                  (, ,)
+                  (PP (IN for)
+                    (NP
+                      (NP (NN example))
+                      (, ,)
+                      (SBAR
+                        (WHNP
+                          (NP (WRB when) (JJ tagging) (NNS languages))
+                          (WHPP (IN for)
+                            (WHNP (WDT which))))
+                        (S
+                          (NP (DT no) (NNS data))
+                          (VP (VBD was)
+                            (ADJP (RB previously) (JJ hand-tagged))))))))))))))
+    (. .)))
+
+# Parse 4 with score -259.0003377359826
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (DT the) (JJ EM-trained) (`` ``) (JJ pure) (NN HMM) ('' '') (NN tagger))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (VP
+        (ADVP (RBS best))
+        (VBN suited)
+        (PP (TO to)
+          (NP (NNS cases)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (DT no) (NN training) (NNS data))
+            (VP (VBZ is)
+              (ADJP (JJ available))
+              (, ,)
+              (PP (IN for)
+                (NP
+                  (NP (NN example))
+                  (, ,)
+                  (SBAR
+                    (WHNP
+                      (NP (WRB when) (JJ tagging) (NNS languages))
+                      (WHPP (IN for)
+                        (WHNP (WDT which))))
+                    (S
+                      (NP (DT no) (NNS data))
+                      (VP (VBD was)
+                        (ADJP (RB previously) (JJ hand-tagged))))))))))))
+    (. .)))
+
+# Parse 5 with score -259.0384666186292
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (DT the) (JJ EM-trained) (`` ``) (JJ pure) (NN HMM) ('' '') (NN tagger))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (VP
+        (ADVP (RB best))
+        (VBN suited)
+        (PP (TO to)
+          (NP (NNS cases)
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT no) (NN training) (NNS data))
+                (VP (VBZ is)
+                  (ADJP (JJ available))
+                  (, ,)
+                  (PP (IN for)
+                    (NP
+                      (NP (NN example))
+                      (, ,)
+                      (SBAR
+                        (WHNP
+                          (NP (WRB when) (JJ tagging) (NNS languages))
+                          (WHPP (IN for)
+                            (WHNP (WDT which))))
+                        (S
+                          (NP (DT no) (NNS data))
+                          (VP (VBD was)
+                            (ADJP (RB previously) (JJ hand-tagged))))))))))))))
+    (. .)))
+

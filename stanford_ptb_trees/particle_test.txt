@@ -1,0 +1,77 @@
+(ROOT
+  (S
+    (NP (DT The) (NN woman))
+    (VP
+      (VP (VBD shut)
+        (PRT (RP up)))
+      (CC and)
+      (VP (VBD went)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+
+# Parse 1 with score -62.30402225255966
+(ROOT
+  (S
+    (NP (DT The) (NN woman))
+    (VP
+      (VP (VBD shut)
+        (PRT (RP up)))
+      (CC and)
+      (VP (VBD went)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+
+# Parse 2 with score -64.89223350700922
+(ROOT
+  (S
+    (NP (DT The) (NN woman))
+    (VP
+      (VP (VBD shut)
+        (PRT (RP up)))
+      (CC and)
+      (VP (VBD went)
+        (PRT (RP down))
+        (NP (DT the) (NN stairs))))
+    (. .)))
+
+# Parse 3 with score -65.2036160316784
+(ROOT
+  (S
+    (NP (DT The) (NN woman))
+    (VP
+      (VP (VBD shut)
+        (ADVP (RB up)))
+      (CC and)
+      (VP (VBD went)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+
+# Parse 4 with score -65.39765085396357
+(ROOT
+  (S
+    (NP (DT The) (NN woman))
+    (VP
+      (VP (VBD shut)
+        (PRT (RP up)))
+      (CC and)
+      (VP (VBD went)
+        (PRT (IN down))
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+
+# Parse 5 with score -65.64915455994196
+(ROOT
+  (S
+    (NP (DT The) (NN woman))
+    (VP
+      (VP (VBD shut)
+        (PRT (RP up)))
+      (CC and)
+      (VP (VBD went)
+        (PRT (RB down))
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+

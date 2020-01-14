@@ -1,0 +1,269 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP (RBS most) (JJ important))
+        (NNS words))
+      (PP (IN in)
+        (NP (NNP French))))
+    (VP (VBP are)
+      (SBAR
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP 're)
+              (ADJP (JJ welcome))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NN je) (NNS vous))
+                  (PP (IN en)
+                    (NP
+                      (NP (NN prie))
+                      (, ,) (IN de)
+                      (NP (NN rien)))))
+                (-RRB- -RRB-)))))
+        (, ,)
+        (CC or)
+        (SBAR
+          (S
+            (VP (VBP thank)
+              (NP
+                (NP
+                  (NP (PRP you))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NN merci) (, ,) (NN je) (NNS vous) (NN remercie))
+                    (-RRB- -RRB-)))
+                (CC and)
+                (NP
+                  (NP (NN goodbye))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (NN salut))
+                      (, ,)
+                      (NP (NN au) (NN revoir)))
+                    (-RRB- -RRB-)))))))))))
+
+# Parse 1 with score -341.8276581168175
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP (RBS most) (JJ important))
+        (NNS words))
+      (PP (IN in)
+        (NP (NNP French))))
+    (VP (VBP are)
+      (SBAR
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP 're)
+              (ADJP (JJ welcome))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NN je) (NNS vous))
+                  (PP (IN en)
+                    (NP
+                      (NP (NN prie))
+                      (, ,) (IN de)
+                      (NP (NN rien)))))
+                (-RRB- -RRB-)))))
+        (, ,)
+        (CC or)
+        (SBAR
+          (S
+            (VP (VBP thank)
+              (NP
+                (NP
+                  (NP (PRP you))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NN merci) (, ,) (NN je) (NNS vous) (NN remercie))
+                    (-RRB- -RRB-)))
+                (CC and)
+                (NP
+                  (NP (NN goodbye))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (NN salut))
+                      (, ,)
+                      (NP (NN au) (NN revoir)))
+                    (-RRB- -RRB-)))))))))))
+
+# Parse 2 with score -341.89628084748983
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP (RBS most) (JJ important))
+        (NNS words))
+      (PP (IN in)
+        (NP (NNP French))))
+    (VP (VBP are)
+      (SBAR
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP 're)
+              (ADJP (JJ welcome))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NN je) (NNS vous))
+                  (PP (IN en)
+                    (NP
+                      (NP (NN prie))
+                      (, ,) (IN de)
+                      (NP (NN rien)))))
+                (-RRB- -RRB-)))))
+        (, ,)
+        (CC or)
+        (SBAR
+          (S
+            (VP (VBP thank)
+              (NP
+                (NP
+                  (NP (PRP you))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NN merci) (, ,) (NN je) (NNS vous) (NN remercie))
+                    (-RRB- -RRB-)))
+                (CC and)
+                (NP
+                  (NP (NN goodbye))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NN salut))
+                    (, ,)
+                    (NP (NN au) (NN revoir))
+                    (-RRB- -RRB-)))))))))))
+
+# Parse 3 with score -342.32428592443466
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP (RBS most) (JJ important))
+        (NNS words))
+      (PP (IN in)
+        (NP (NNP French))))
+    (VP (VBP are)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP
+            (VP (VBP 're)
+              (ADJP
+                (ADJP (JJ welcome))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NN je) (NNS vous))
+                    (PP (IN en)
+                      (NP
+                        (NP (NN prie))
+                        (, ,) (IN de)
+                        (NP (NN rien)))))
+                  (-RRB- -RRB-))))
+            (, ,)
+            (CC or)
+            (VP (VBP thank)
+              (NP
+                (NP
+                  (NP (PRP you))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NN merci) (, ,) (NN je) (NNS vous) (NN remercie))
+                    (-RRB- -RRB-)))
+                (CC and)
+                (NP
+                  (NP (NN goodbye))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (NN salut))
+                      (, ,)
+                      (NP (NN au) (NN revoir)))
+                    (-RRB- -RRB-)))))))))))
+
+# Parse 4 with score -342.39288222417235
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP (RBS most) (JJ important))
+        (NNS words))
+      (PP (IN in)
+        (NP (NNP French))))
+    (VP (VBP are)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP
+            (VP (VBP 're)
+              (ADJP
+                (ADJP (JJ welcome))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NN je) (NNS vous))
+                    (PP (IN en)
+                      (NP
+                        (NP (NN prie))
+                        (, ,) (IN de)
+                        (NP (NN rien)))))
+                  (-RRB- -RRB-))))
+            (, ,)
+            (CC or)
+            (VP (VBP thank)
+              (NP
+                (NP
+                  (NP (PRP you))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NN merci) (, ,) (NN je) (NNS vous) (NN remercie))
+                    (-RRB- -RRB-)))
+                (CC and)
+                (NP
+                  (NP (NN goodbye))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NN salut))
+                    (, ,)
+                    (NP (NN au) (NN revoir))
+                    (-RRB- -RRB-)))))))))))
+
+# Parse 5 with score -342.59341138601303
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP (RBS most) (JJ important))
+        (NNS words))
+      (PP (IN in)
+        (NP (NNP French))))
+    (VP
+      (VP (VBP are)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP 're)
+              (ADJP (JJ welcome))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NN je) (NNS vous))
+                  (PP (IN en)
+                    (NP
+                      (NP (NN prie))
+                      (, ,) (IN de)
+                      (NP (NN rien)))))
+                (-RRB- -RRB-))))))
+      (, ,)
+      (CC or)
+      (VP (VBP thank)
+        (NP
+          (NP
+            (NP (PRP you))
+            (PRN (-LRB- -LRB-)
+              (NP (NN merci) (, ,) (NN je) (NNS vous) (NN remercie))
+              (-RRB- -RRB-)))
+          (CC and)
+          (NP
+            (NP (NN goodbye))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NN salut))
+                (, ,)
+                (NP (NN au) (NN revoir)))
+              (-RRB- -RRB-))))))))
+

@@ -1,0 +1,31 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/7.txt outputs_stanford_pcfg_best/conll_files/7.txt -g gold_standard_fixed/sentence_7.txt --Metric UAS
+====================================================
+Gold:   gold_standard_fixed/sentence_7.txt
+Parsed: outputs_berkeley/conll_files/7.txt
+====================================================
+GroupBy-> Token
+Metric-> UAS
+
+====================================================
+
+accuracy /    Token
+-----------------------
+0.812         Row mean
+16            Row count
+-----------------------
+
+====================================================
+Gold:   gold_standard_fixed/sentence_7.txt
+Parsed: outputs_stanford_pcfg_best/conll_files/7.txt
+====================================================
+GroupBy-> Token
+Metric-> UAS
+
+====================================================
+
+accuracy /    Token
+-----------------------
+1             Row mean
+16            Row count
+-----------------------
+

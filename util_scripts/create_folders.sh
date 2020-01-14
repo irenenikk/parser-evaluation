@@ -2,6 +2,6 @@
 for i in {0..21};
 do
     echo $i
-    mkdir "../accuracies/$i"
+    mkdir "../evaluation_results/$i"
 done
 

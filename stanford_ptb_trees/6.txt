@@ -1,0 +1,114 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (NN horse))
+        (CONJP (RB as) (RB well) (IN as))
+        (NP (DT the) (NNS rabbits)))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP we))
+          (VP (VBD wanted)
+            (S
+              (VP (TO to)
+                (VP (VB eat))))))))
+    (VP (VBP have)
+      (VP (VBN escaped)))))
+
+# Parse 1 with score -102.540068089962
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (NN horse))
+        (CONJP (RB as) (RB well) (IN as))
+        (NP (DT the) (NNS rabbits)))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP we))
+          (VP (VBD wanted)
+            (S
+              (VP (TO to)
+                (VP (VB eat))))))))
+    (VP (VBP have)
+      (VP (VBN escaped)))))
+
+# Parse 2 with score -102.55115741491318
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (NN horse))
+        (CONJP (RB as) (RB well) (IN as))
+        (NP (DT the) (NNS rabbits)))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP we))
+          (VP (VBD wanted)
+            (S
+              (VP (TO to)
+                (VP (VB eat))))))))
+    (VP (VBP have)
+      (VP (VBN escaped)))))
+
+# Parse 3 with score -103.70313113927841
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (NN horse))
+        (CONJP (RB as) (RB well) (IN as))
+        (NP (DT the) (NN rabbits)))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP we))
+          (VP (VBD wanted)
+            (S
+              (VP (TO to)
+                (VP (VB eat))))))))
+    (VP (VBP have)
+      (VP (VBN escaped)))))
+
+# Parse 4 with score -103.71422857046127
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (NN horse))
+        (CONJP (RB as) (RB well) (IN as))
+        (NP (DT the) (NN rabbits)))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP we))
+          (VP (VBD wanted)
+            (S
+              (VP (TO to)
+                (VP (VB eat))))))))
+    (VP (VBP have)
+      (VP (VBN escaped)))))
+
+# Parse 5 with score -104.61964893341064
+(ROOT
+  (FRAG
+    (NP (DT The) (NN horse))
+    (ADJP (RB as) (RB well)
+      (SBAR (IN as)
+        (S
+          (NP
+            (NP (DT the) (NNS rabbits))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP (PRP we))
+                (VP (VBD wanted)
+                  (S
+                    (VP (TO to)
+                      (VP (VB eat))))))))
+          (VP (VBP have)
+            (VP (VBN escaped))))))))
+

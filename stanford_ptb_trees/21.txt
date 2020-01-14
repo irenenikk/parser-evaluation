@@ -1,0 +1,184 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Skill))
+      (PP (IN without)
+        (NP (NN imagination))))
+    (VP
+      (VP (VBZ is)
+        (NP (NN craftsmanship)))
+      (CC and)
+      (VP (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP (JJ many) (JJ useful) (NNS objects))
+          (PP (JJ such) (IN as)
+            (NP (NN wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)))
+
+# Parse 1 with score -155.57839053869247
+(ROOT
+  (S
+    (NP
+      (NP (NNP Skill))
+      (PP (IN without)
+        (NP (NN imagination))))
+    (VP
+      (VP (VBZ is)
+        (NP (NN craftsmanship)))
+      (CC and)
+      (VP (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP (JJ many) (JJ useful) (NNS objects))
+          (PP (JJ such) (IN as)
+            (NP (NN wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)))
+
+# Parse 2 with score -156.52439838647842
+(ROOT
+  (S
+    (NP
+      (NP (NN Skill))
+      (PP (IN without)
+        (NP (NN imagination))))
+    (VP
+      (VP (VBZ is)
+        (NP (NN craftsmanship)))
+      (CC and)
+      (VP (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP (JJ many) (JJ useful) (NNS objects))
+          (PP (JJ such) (IN as)
+            (NP (NN wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)))
+
+# Parse 3 with score -156.623947621556
+(ROOT
+  (S
+    (NP
+      (NP (NNP Skill))
+      (PP (IN without)
+        (NP (NN imagination))))
+    (VP
+      (VP (VBZ is)
+        (NP (NN craftsmanship)))
+      (CC and)
+      (VP (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP (JJ many) (JJ useful) (NNS objects))
+          (PP (JJ such) (IN as)
+            (NP (JJ wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)))
+
+# Parse 4 with score -157.35208441433497
+(ROOT
+  (S
+    (NP
+      (NP (NNP Skill))
+      (PP (IN without)
+        (NP (NN imagination))))
+    (VP
+      (VP (VBZ is)
+        (NP (NN craftsmanship)))
+      (CC and)
+      (VP (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP
+            (ADJP (JJ many) (JJ useful))
+            (NNS objects))
+          (PP (JJ such) (IN as)
+            (NP (NN wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)))
+
+# Parse 5 with score -157.486977994442
+(ROOT
+  (S
+    (NP (NNP Skill))
+    (PP (IN without)
+      (NP (NN imagination)))
+    (VP
+      (VP (VBZ is)
+        (NP (NN craftsmanship)))
+      (CC and)
+      (VP (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP (JJ many) (JJ useful) (NNS objects))
+          (PP (JJ such) (IN as)
+            (NP (NN wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Imagination))
+      (PP (IN without)
+        (NP (NN skill))))
+    (VP (VBZ gives)
+      (NP (PRP us))
+      (NP (JJ modern) (NN art)))
+    (. .)))
+
+# Parse 1 with score -74.27059787511826
+(ROOT
+  (S
+    (NP
+      (NP (NNP Imagination))
+      (PP (IN without)
+        (NP (NN skill))))
+    (VP (VBZ gives)
+      (NP (PRP us))
+      (NP (JJ modern) (NN art)))
+    (. .)))
+
+# Parse 2 with score -74.69936519861221
+(ROOT
+  (S
+    (NP
+      (NP (NN Imagination))
+      (PP (IN without)
+        (NP (NN skill))))
+    (VP (VBZ gives)
+      (NP (PRP us))
+      (NP (JJ modern) (NN art)))
+    (. .)))
+
+# Parse 3 with score -76.17918056249619
+(ROOT
+  (S
+    (NP (NNP Imagination))
+    (PP (IN without)
+      (NP (NN skill)))
+    (VP (VBZ gives)
+      (NP (PRP us))
+      (NP (JJ modern) (NN art)))
+    (. .)))
+
+# Parse 4 with score -76.56983464956284
+(ROOT
+  (S
+    (S
+      (VP (VBN Imagination)
+        (PP (IN without)
+          (NP (NN skill)))))
+    (VP (VBZ gives)
+      (NP (PRP us))
+      (NP (JJ modern) (NN art)))
+    (. .)))
+
+# Parse 5 with score -76.73732644319534
+(ROOT
+  (S
+    (NP
+      (NP (NNS Imagination))
+      (PP (IN without)
+        (NP (NN skill))))
+    (VP (VBZ gives)
+      (NP (PRP us))
+      (NP (JJ modern) (NN art)))
+    (. .)))
+

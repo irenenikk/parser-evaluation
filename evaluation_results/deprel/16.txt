@@ -1,0 +1,64 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/16.txt outputs_stanford_pcfg_best/conll_files/16.txt -g gold_standard_fixed/sentence_16.txt --GroupBy Deprel --Metric self
+====================================================
+Gold:   gold_standard_fixed/sentence_16.txt
+Parsed: outputs_berkeley/conll_files/16.txt
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           advmod
+0.857          1           0.923       amod
+-              0           -           appos
+1              1           1           aux
+1              1           1           cc
+0              -           -           ccomp
+1              1           1           conj
+1              1           1           csubj
+0              0           -           dep
+1              1           1           det
+1              0.833       0.909       dobj
+0.75           1           0.857       nsubj
+1              1           1           parataxis
+1              1           1           pobj
+1              1           1           prep
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+-              0           -           xcomp
+
+====================================================
+Gold:   gold_standard_fixed/sentence_16.txt
+Parsed: outputs_stanford_pcfg_best/conll_files/16.txt
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           advmod
+1              1           1           amod
+1              1           1           appos
+1              1           1           aux
+1              1           1           cc
+0              -           -           ccomp
+1              1           1           conj
+1              1           1           csubj
+1              1           1           dep
+1              1           1           det
+0.8            0.667       0.727       dobj
+0              -           -           iobj
+0.75           1           0.857       nsubj
+1              1           1           parataxis
+1              1           1           pobj
+1              1           1           prep
+1              1           1           punct
+-              0           -           rcmod
+1              1           1           root
+-              0           -           xcomp
+

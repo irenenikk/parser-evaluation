@@ -3,10 +3,10 @@
   (NP
     (DT the)
     (JJ EM-trained)
-    (" ")
+    (`` ``)
     (JJ pure)
     (NNP HMM)
-    (" ")
+    ('' '')
     (NN tagger))
   (VP
     (VBZ is)

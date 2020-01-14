@@ -1,0 +1,59 @@
+(ROOT
+  (S
+    (NP (DT The) (JJ old) (NN car))
+    (VP (VBD broke)
+      (PRT (RP down))
+      (PP (IN in)
+        (NP (DT the) (NN car) (NN park))))
+    (. .)))
+
+# Parse 1 with score -58.84134525060654
+(ROOT
+  (S
+    (NP (DT The) (JJ old) (NN car))
+    (VP (VBD broke)
+      (PRT (RP down))
+      (PP (IN in)
+        (NP (DT the) (NN car) (NN park))))
+    (. .)))
+
+# Parse 2 with score -60.622999326558784
+(ROOT
+  (S
+    (NP (DT The) (JJ old) (NN car))
+    (VP (VBD broke)
+      (ADVP (RB down))
+      (PP (IN in)
+        (NP (DT the) (NN car) (NN park))))
+    (. .)))
+
+# Parse 3 with score -60.91132487473078
+(ROOT
+  (S
+    (NP (DT The) (JJ old) (NN car))
+    (VP (VBD broke)
+      (PRT (VBP down))
+      (PP (IN in)
+        (NP (DT the) (NN car) (NN park))))
+    (. .)))
+
+# Parse 4 with score -61.20538105187006
+(ROOT
+  (S
+    (NP (DT The) (JJ old) (NN car))
+    (VP (VBD broke)
+      (ADVP (RB down)
+        (PP (IN in)
+          (NP (DT the) (NN car) (NN park)))))
+    (. .)))
+
+# Parse 5 with score -61.47272648033686
+(ROOT
+  (S
+    (NP (DT The) (JJ old) (NN car))
+    (VP (VBD broke)
+      (ADVP (IN down))
+      (PP (IN in)
+        (NP (DT the) (NN car) (NN park))))
+    (. .)))
+

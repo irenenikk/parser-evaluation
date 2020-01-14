@@ -1,0 +1,81 @@
+(ROOT
+  (S
+    (NP
+      (QP (IN At) (JJS least) (CD two))
+      (NNS men))
+    (VP
+      (VP (VBD broke)
+        (PRT (RP in)))
+      (CC and)
+      (VP (VBD stole)
+        (NP (PRP$ my) (NN TV))))
+    (. .)))
+
+# Parse 1 with score -73.95834964513779
+(ROOT
+  (S
+    (NP
+      (QP (IN At) (JJS least) (CD two))
+      (NNS men))
+    (VP
+      (VP (VBD broke)
+        (PRT (RP in)))
+      (CC and)
+      (VP (VBD stole)
+        (NP (PRP$ my) (NN TV))))
+    (. .)))
+
+# Parse 2 with score -74.68565059569664
+(ROOT
+  (S
+    (NP
+      (QP (IN At) (JJS least) (CD two))
+      (NNS men))
+    (VP
+      (VP (VBD broke)
+        (PP (IN in)))
+      (CC and)
+      (VP (VBD stole)
+        (NP (PRP$ my) (NN TV))))
+    (. .)))
+
+# Parse 3 with score -75.93984914687462
+(ROOT
+  (S
+    (NP
+      (QP (IN At) (JJS least) (CD two))
+      (NNS men))
+    (VP
+      (VP (VBD broke)
+        (ADVP (RB in)))
+      (CC and)
+      (VP (VBD stole)
+        (NP (PRP$ my) (NN TV))))
+    (. .)))
+
+# Parse 4 with score -76.7633137863595
+(ROOT
+  (S
+    (NP
+      (QP (IN At) (JJS least) (CD two))
+      (NNS men))
+    (VP (VBD broke)
+      (PP (IN in))
+      (CC and)
+      (VBD stole)
+      (NP (PRP$ my) (NN TV)))
+    (. .)))
+
+# Parse 5 with score -76.91870683431625
+(ROOT
+  (S
+    (ADVP (IN At) (JJS least))
+    (NP (CD two) (NNS men))
+    (VP
+      (VP (VBD broke)
+        (PRT (RP in)))
+      (CC and)
+      (VP (VBD stole)
+        (NP (PRP$ my) (NN TV))))
+    (. .)))
+

@@ -1,0 +1,31 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/19.txt outputs_stanford_pcfg_best/conll_files/19.txt -g gold_standard_fixed/sentence_19.txt --Metric UAS
+====================================================
+Gold:   gold_standard_fixed/sentence_19.txt
+Parsed: outputs_berkeley/conll_files/19.txt
+====================================================
+GroupBy-> Token
+Metric-> UAS
+
+====================================================
+
+accuracy /    Token
+-----------------------
+0.743         Row mean
+35            Row count
+-----------------------
+
+====================================================
+Gold:   gold_standard_fixed/sentence_19.txt
+Parsed: outputs_stanford_pcfg_best/conll_files/19.txt
+====================================================
+GroupBy-> Token
+Metric-> UAS
+
+====================================================
+
+accuracy /    Token
+-----------------------
+0.686         Row mean
+35            Row count
+-----------------------
+

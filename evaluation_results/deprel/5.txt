@@ -1,0 +1,47 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/5.txt outputs_stanford_pcfg_best/conll_files/5.txt -g gold_standard_fixed/sentence_5.txt --GroupBy Deprel --Metric self
+====================================================
+Gold:   gold_standard_fixed/sentence_5.txt
+Parsed: outputs_berkeley/conll_files/5.txt
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              0.667       0.8         advmod
+1              1           1           cop
+0              -           -           dep
+1              1           1           det
+1              1           1           dobj
+1              1           1           nsubj
+1              1           1           pobj
+1              1           1           prep
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+
+====================================================
+Gold:   gold_standard_fixed/sentence_5.txt
+Parsed: outputs_stanford_pcfg_best/conll_files/5.txt
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              0.333       0.5         advmod
+1              1           1           cop
+1              1           1           det
+1              1           1           dobj
+0              -           -           nn
+0.5            0.5         0.5         nsubj
+1              1           1           pobj
+1              1           1           prep
+1              1           1           punct
+0              0           -           rcmod
+1              1           1           root
+

@@ -1,0 +1,124 @@
+(ROOT
+  (S
+    (NP (PRP$ My) (JJ favorite) (NNS words))
+    (VP (VBP are)
+      (S
+        (VP
+          (VP (VB create))
+          (, ,)
+          (VP (VB love)
+            (PRN (-LRB- -LRB-)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP 'm) (RB not)
+                    (NP (DT a) (JJ romantic) (NN person)))))
+              (-RRB- -RRB-))
+            (CC and)
+            (VB destroy)))))
+    (. .)))
+
+# Parse 1 with score -131.61192935705185
+(ROOT
+  (S
+    (NP (PRP$ My) (JJ favorite) (NNS words))
+    (VP (VBP are)
+      (S
+        (VP
+          (VP (VB create))
+          (, ,)
+          (VP (VB love)
+            (PRN (-LRB- -LRB-)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP 'm) (RB not)
+                    (NP (DT a) (JJ romantic) (NN person)))))
+              (-RRB- -RRB-))
+            (CC and)
+            (VB destroy)))))
+    (. .)))
+
+# Parse 2 with score -133.39636673149653
+(ROOT
+  (S
+    (NP (PRP$ My) (JJ favorite) (NNS words))
+    (VP (VBP are)
+      (S
+        (VP
+          (VP (VB create))
+          (, ,)
+          (VP (VB love)
+            (PRN (-LRB- -LRB-)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP 'm) (RB not)
+                    (NP (DT a) (JJ romantic) (NN person)))))
+              (-RRB- -RRB-)))
+          (CC and)
+          (VP (VB destroy)))))
+    (. .)))
+
+# Parse 3 with score -134.09100259956904
+(ROOT
+  (S
+    (NP (PRP$ My) (JJ favorite) (NNS words))
+    (VP
+      (VP (VBP are)
+        (ADJP (JJ create)))
+      (, ,)
+      (VP (VBP love)
+        (PRN (-LRB- -LRB-)
+          (SBAR (IN although)
+            (S
+              (NP (PRP I))
+              (VP (VBP 'm) (RB not)
+                (NP (DT a) (JJ romantic) (NN person)))))
+          (-RRB- -RRB-)))
+      (CC and)
+      (VP (VBP destroy)))
+    (. .)))
+
+# Parse 4 with score -134.3794329550583
+(ROOT
+  (S
+    (NP (PRP$ My) (JJ favorite) (NNS words))
+    (VP (VBP are)
+      (S
+        (VP
+          (VP (VB create))
+          (, ,)
+          (VP (VB love)
+            (PRN (-LRB- -LRB-)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP 'm) (RB not)
+                    (NP (DT a) (JJ romantic) (NN person)))))
+              (-RRB- -RRB-))
+            (CC and)
+            (VB destroy)))))
+    (. .)))
+
+# Parse 5 with score -134.59522813558578
+(ROOT
+  (S
+    (NP (PRP$ My) (NN favorite) (NNS words))
+    (VP (VBP are)
+      (S
+        (VP
+          (VP (VB create))
+          (, ,)
+          (VP (VB love)
+            (PRN (-LRB- -LRB-)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP 'm) (RB not)
+                    (NP (DT a) (JJ romantic) (NN person)))))
+              (-RRB- -RRB-))
+            (CC and)
+            (VB destroy)))))
+    (. .)))
+

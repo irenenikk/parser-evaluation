@@ -1,0 +1,49 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/6.txt outputs_stanford_pcfg_best/conll_files/6.txt -g gold_standard_fixed/sentence_6.txt --GroupBy Deprel --Metric self
+====================================================
+Gold:   gold_standard_fixed/sentence_6.txt
+Parsed: outputs_berkeley/conll_files/6.txt
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+0              -           -           advmod
+1              1           1           aux
+1              1           1           cc
+1              1           1           conj
+1              1           1           det
+1              1           1           dobj
+1              0.5         0.667       mwe
+1              1           1           nsubj
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+1              1           1           xcomp
+
+====================================================
+Gold:   gold_standard_fixed/sentence_6.txt
+Parsed: outputs_stanford_pcfg_best/conll_files/6.txt
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+0              -           -           advmod
+1              1           1           aux
+1              1           1           cc
+1              1           1           conj
+1              1           1           det
+1              1           1           dobj
+1              0.5         0.667       mwe
+1              1           1           nsubj
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+1              1           1           xcomp
+

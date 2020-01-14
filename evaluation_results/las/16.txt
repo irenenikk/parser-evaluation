@@ -1,0 +1,31 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/16.txt outputs_stanford_pcfg_best/conll_files/16.txt -g gold_standard_fixed/sentence_16.txt --Metric LAS
+====================================================
+Gold:   gold_standard_fixed/sentence_16.txt
+Parsed: outputs_berkeley/conll_files/16.txt
+====================================================
+GroupBy-> Token
+Metric-> LAS
+
+====================================================
+
+accuracy /    Token
+-----------------------
+0.842         Row mean
+38            Row count
+-----------------------
+
+====================================================
+Gold:   gold_standard_fixed/sentence_16.txt
+Parsed: outputs_stanford_pcfg_best/conll_files/16.txt
+====================================================
+GroupBy-> Token
+Metric-> LAS
+
+====================================================
+
+accuracy /    Token
+-----------------------
+0.816         Row mean
+38            Row count
+-----------------------
+

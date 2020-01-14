@@ -1,0 +1,104 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN rabbit))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD liked)))))
+    (VP (VBD was)
+      (VP (VBN eaten)
+        (PP (IN by)
+          (NP (PRP$ my) (NNS parents)))
+        (NP (CD one) (NN summer))))
+    (. .)))
+
+# Parse 1 with score -105.716093480587
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN rabbit))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD liked)))))
+    (VP (VBD was)
+      (VP (VBN eaten)
+        (PP (IN by)
+          (NP (PRP$ my) (NNS parents)))
+        (NP (CD one) (NN summer))))
+    (. .)))
+
+# Parse 2 with score -106.42353338003159
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN rabbit))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD liked)))))
+    (VP (VBD was)
+      (VP (VBN eaten)
+        (PP (IN by)
+          (NP (PRP$ my) (NNS parents)))
+        (NP (CD one) (NN summer))))
+    (. .)))
+
+# Parse 3 with score -106.59804119286127
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN rabbit))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD liked)))))
+    (VP (VBD was)
+      (VP (VBN eaten)
+        (PP (IN by)
+          (NP
+            (NP (PRP$ my) (NNS parents))
+            (NP (CD one) (NN summer))))))
+    (. .)))
+
+# Parse 4 with score -107.0058359503746
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN rabbit))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD liked)))))
+    (VP (VBD was)
+      (VP (VBN eaten)
+        (PP (IN by)
+          (NP (PRP$ my) (NNS parents)))
+        (NP (CD one) (NN summer))))
+    (. .)))
+
+# Parse 5 with score -107.30548252281733
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN rabbit))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD liked)))))
+    (VP (VBD was)
+      (VP (VBN eaten)
+        (PP (IN by)
+          (NP
+            (NP (PRP$ my) (NNS parents))
+            (NP (CD one) (NN summer))))))
+    (. .)))
+

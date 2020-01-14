@@ -1,0 +1,270 @@
+(ROOT
+  (S
+    (PP (RB Instead) (IN of)
+      (S
+        (VP
+          (ADVP (RB constantly))
+          (VBG worrying)
+          (PP (IN about)
+            (NP (NN funding))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN faculty))
+      (CC and)
+      (NP (NNS students)))
+    (VP (MD can)
+      (VP (VB focus)
+        (PP (IN on)
+          (NP (PRP$ their) (NN project)))
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN exception))
+            (PP (IN of)
+              (NP
+                (NP (NNS sponsors) (POS '))
+                (NNS weeks)))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP they))
+                (VP (VBP have)
+                  (S
+                    (VP (TO to)
+                      (VP (VB convince)
+                        (S
+                          (NP (NNS companies))
+                          (VP (TO to)
+                            (VP (VB start)
+                              (CC or)
+                              (VB continue)
+                              (NP (PRP$ their) (NN support)))))))))))))))
+    (. .)))
+
+# Parse 1 with score -228.1589874625206
+(ROOT
+  (S
+    (PP (RB Instead) (IN of)
+      (S
+        (VP
+          (ADVP (RB constantly))
+          (VBG worrying)
+          (PP (IN about)
+            (NP (NN funding))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN faculty))
+      (CC and)
+      (NP (NNS students)))
+    (VP (MD can)
+      (VP (VB focus)
+        (PP (IN on)
+          (NP (PRP$ their) (NN project)))
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN exception))
+            (PP (IN of)
+              (NP
+                (NP (NNS sponsors) (POS '))
+                (NNS weeks)))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP they))
+                (VP (VBP have)
+                  (S
+                    (VP (TO to)
+                      (VP (VB convince)
+                        (S
+                          (NP (NNS companies))
+                          (VP (TO to)
+                            (VP (VB start)
+                              (CC or)
+                              (VB continue)
+                              (NP (PRP$ their) (NN support)))))))))))))))
+    (. .)))
+
+# Parse 2 with score -228.22267933306284
+(ROOT
+  (S
+    (PP (RB Instead) (IN of)
+      (S
+        (VP
+          (ADVP (RB constantly))
+          (VBG worrying)
+          (PP (IN about)
+            (NP (NN funding))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN faculty))
+      (CC and)
+      (NP (NNS students)))
+    (VP (MD can)
+      (VP (VB focus)
+        (PP (IN on)
+          (NP (PRP$ their) (NN project)))
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN exception))
+            (PP (IN of)
+              (NP
+                (NP (NNS sponsors) (POS '))
+                (NNS weeks)))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP they))
+                (VP (VBP have)
+                  (S
+                    (VP (TO to)
+                      (VP (VB convince)
+                        (NP (NNS companies))
+                        (S
+                          (VP (TO to)
+                            (VP (VB start)
+                              (CC or)
+                              (VB continue)
+                              (NP (PRP$ their) (NN support)))))))))))))))
+    (. .)))
+
+# Parse 3 with score -228.26161112007685
+(ROOT
+  (S
+    (PP (RB Instead) (IN of)
+      (S
+        (VP
+          (ADVP (RB constantly))
+          (VBG worrying)
+          (PP (IN about)
+            (NP (NN funding))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN faculty))
+      (CC and)
+      (NP (NNS students)))
+    (VP (MD can)
+      (VP (VB focus)
+        (PP (IN on)
+          (NP (PRP$ their) (NN project)))
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN exception))
+            (PP (IN of)
+              (NP
+                (NP (NNS sponsors) (POS '))
+                (NNS weeks)))))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP they))
+            (VP (VBP have)
+              (S
+                (VP (TO to)
+                  (VP (VB convince)
+                    (S
+                      (NP (NNS companies))
+                      (VP (TO to)
+                        (VP (VB start)
+                          (CC or)
+                          (VB continue)
+                          (NP (PRP$ their) (NN support)))))))))))))
+    (. .)))
+
+# Parse 4 with score -228.28511490044184
+(ROOT
+  (S
+    (PP (RB Instead) (IN of)
+      (S
+        (VP
+          (ADVP (RB constantly))
+          (VBG worrying)
+          (PP (IN about)
+            (NP (NN funding))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN faculty))
+      (CC and)
+      (NP (NNS students)))
+    (VP (MD can)
+      (VP (VB focus)
+        (PP (IN on)
+          (NP (PRP$ their) (NN project)))
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN exception))
+            (PP (IN of)
+              (NP
+                (NP
+                  (NP (NNS sponsors) (POS '))
+                  (NNS weeks))
+                (, ,)
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP they))
+                    (VP (VBP have)
+                      (S
+                        (VP (TO to)
+                          (VP (VB convince)
+                            (S
+                              (NP (NNS companies))
+                              (VP (TO to)
+                                (VP (VB start)
+                                  (CC or)
+                                  (VB continue)
+                                  (NP (PRP$ their) (NN support)))))))))))))))))
+    (. .)))
+
+# Parse 5 with score -228.32531972345896
+(ROOT
+  (S
+    (PP (RB Instead) (IN of)
+      (S
+        (VP
+          (ADVP (RB constantly))
+          (VBG worrying)
+          (PP (IN about)
+            (NP (NN funding))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN faculty))
+      (CC and)
+      (NP (NNS students)))
+    (VP (MD can)
+      (VP (VB focus)
+        (PP (IN on)
+          (NP (PRP$ their) (NN project)))
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN exception))
+            (PP (IN of)
+              (NP
+                (NP (NNS sponsors) (POS '))
+                (NNS weeks)))))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP they))
+            (VP (VBP have)
+              (S
+                (VP (TO to)
+                  (VP (VB convince)
+                    (NP (NNS companies))
+                    (S
+                      (VP (TO to)
+                        (VP (VB start)
+                          (CC or)
+                          (VB continue)
+                          (NP (PRP$ their) (NN support)))))))))))))
+    (. .)))
+

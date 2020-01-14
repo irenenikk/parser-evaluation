@@ -1,0 +1,271 @@
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Making)
+          (NP (DT these) (NNS decisions))))
+      (VP (VBZ requires)
+        (NP
+          (NP (JJ sophisticated) (NN knowledge))
+          (PP (IN of)
+            (NP (NN syntax))))))
+    (: ;)
+    (S
+      (NP
+        (NP (JJ tagging) (NNS manuals))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Santorini))
+          (, ,)
+          (NP (CD 1990))
+          (-RRB- -RRB-)))
+      (VP (VBP give)
+        (NP (JJ various) (NNS heuristics))
+        (NP
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (VP (VB help)
+                  (S
+                    (NP (JJ human) (NNS coders))
+                    (VP (VB make)
+                      (NP (DT these) (NNS decisions))))))))
+          (CC and)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (ADVP (RB also))
+                (VP (VB provide)
+                  (NP (JJ useful) (NNS features))
+                  (PP (IN for)
+                    (NP (JJ automatic) (NNS taggers))))))))))
+    (. .)))
+
+# Parse 1 with score -310.2248138785362
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Making)
+          (NP (DT these) (NNS decisions))))
+      (VP (VBZ requires)
+        (NP
+          (NP (JJ sophisticated) (NN knowledge))
+          (PP (IN of)
+            (NP (NN syntax))))))
+    (: ;)
+    (S
+      (NP
+        (NP (JJ tagging) (NNS manuals))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Santorini))
+          (, ,)
+          (NP (CD 1990))
+          (-RRB- -RRB-)))
+      (VP (VBP give)
+        (NP (JJ various) (NNS heuristics))
+        (NP
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (VP (VB help)
+                  (S
+                    (NP (JJ human) (NNS coders))
+                    (VP (VB make)
+                      (NP (DT these) (NNS decisions))))))))
+          (CC and)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (ADVP (RB also))
+                (VP (VB provide)
+                  (NP (JJ useful) (NNS features))
+                  (PP (IN for)
+                    (NP (JJ automatic) (NNS taggers))))))))))
+    (. .)))
+
+# Parse 2 with score -310.4163626295049
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Making)
+          (NP (DT these) (NNS decisions))))
+      (VP (VBZ requires)
+        (NP
+          (NP (JJ sophisticated) (NN knowledge))
+          (PP (IN of)
+            (NP (NN syntax))))))
+    (: ;)
+    (S
+      (NP
+        (NP (JJ tagging) (NNS manuals))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Santorini))
+          (, ,)
+          (NP (CD 1990))
+          (-RRB- -RRB-)))
+      (VP (VBP give)
+        (NP (JJ various) (NNS heuristics))
+        (NP
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (VP (VB help)
+                  (S
+                    (NP (JJ human) (NNS coders))
+                    (VP (VB make)
+                      (NP (DT these) (NNS decisions))))))))
+          (CC and)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (ADVP (RB also))
+                (VP (VB provide)
+                  (NP
+                    (NP (JJ useful) (NNS features))
+                    (PP (IN for)
+                      (NP (JJ automatic) (NNS taggers)))))))))))
+    (. .)))
+
+# Parse 3 with score -310.657899991842
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Making)
+          (NP (DT these) (NNS decisions))))
+      (VP (VBZ requires)
+        (NP
+          (NP (JJ sophisticated) (NN knowledge))
+          (PP (IN of)
+            (NP (NN syntax))))))
+    (: ;)
+    (S
+      (NP
+        (NP (VBG tagging) (NNS manuals))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Santorini))
+          (, ,)
+          (NP (CD 1990))
+          (-RRB- -RRB-)))
+      (VP (VBP give)
+        (NP (JJ various) (NNS heuristics))
+        (NP
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (VP (VB help)
+                  (S
+                    (NP (JJ human) (NNS coders))
+                    (VP (VB make)
+                      (NP (DT these) (NNS decisions))))))))
+          (CC and)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (ADVP (RB also))
+                (VP (VB provide)
+                  (NP (JJ useful) (NNS features))
+                  (PP (IN for)
+                    (NP (JJ automatic) (NNS taggers))))))))))
+    (. .)))
+
+# Parse 4 with score -310.7750145357568
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Making)
+          (NP (DT these) (NNS decisions))))
+      (VP (VBZ requires)
+        (NP
+          (NP (JJ sophisticated) (NN knowledge))
+          (PP (IN of)
+            (NP (NN syntax))))))
+    (: ;)
+    (S
+      (NP
+        (NP (NN tagging) (NNS manuals))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Santorini))
+          (, ,)
+          (NP (CD 1990))
+          (-RRB- -RRB-)))
+      (VP (VBP give)
+        (NP (JJ various) (NNS heuristics))
+        (NP
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (VP (VB help)
+                  (S
+                    (NP (JJ human) (NNS coders))
+                    (VP (VB make)
+                      (NP (DT these) (NNS decisions))))))))
+          (CC and)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (ADVP (RB also))
+                (VP (VB provide)
+                  (NP (JJ useful) (NNS features))
+                  (PP (IN for)
+                    (NP (JJ automatic) (NNS taggers))))))))))
+    (. .)))
+
+# Parse 5 with score -310.8494280439336
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Making)
+          (NP (DT these) (NNS decisions))))
+      (VP (VBZ requires)
+        (NP
+          (NP (JJ sophisticated) (NN knowledge))
+          (PP (IN of)
+            (NP (NN syntax))))))
+    (: ;)
+    (S
+      (NP
+        (NP (VBG tagging) (NNS manuals))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Santorini))
+          (, ,)
+          (NP (CD 1990))
+          (-RRB- -RRB-)))
+      (VP (VBP give)
+        (NP (JJ various) (NNS heuristics))
+        (NP
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (VP (VB help)
+                  (S
+                    (NP (JJ human) (NNS coders))
+                    (VP (VB make)
+                      (NP (DT these) (NNS decisions))))))))
+          (CC and)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (ADVP (RB also))
+                (VP (VB provide)
+                  (NP
+                    (NP (JJ useful) (NNS features))
+                    (PP (IN for)
+                      (NP (JJ automatic) (NNS taggers)))))))))))
+    (. .)))
+

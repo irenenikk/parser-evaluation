@@ -1,0 +1,179 @@
+(ROOT
+  (SQ (MD Could)
+    (NP (PRP you))
+    (VP (VB please)
+      (VP (VB go)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (DT some) (NN bread))
+              (PRN (-LRB- -LRB-)
+                (NP (NN wholegrain))
+                (, ,)
+                (NP (RB not) (NN rye))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP
+              (NP (NN milk))
+              (PRN (-LRB- -LRB-)
+                (NP (NN non-fat))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP (NN flour))
+            (CC and)
+            (NP
+              (NP (NNS eggs))
+              (PP (IN from)
+                (NP (DT the) (NN store))))))))
+    (. .)))
+
+# Parse 1 with score -195.99429655075073
+(ROOT
+  (SQ (MD Could)
+    (NP (PRP you))
+    (VP (VB please)
+      (VP (VB go)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (DT some) (NN bread))
+              (PRN (-LRB- -LRB-)
+                (NP (NN wholegrain))
+                (, ,)
+                (NP (RB not) (NN rye))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP
+              (NP (NN milk))
+              (PRN (-LRB- -LRB-)
+                (NP (NN non-fat))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP (NN flour))
+            (CC and)
+            (NP
+              (NP (NNS eggs))
+              (PP (IN from)
+                (NP (DT the) (NN store))))))))
+    (. .)))
+
+# Parse 2 with score -196.6787247657776
+(ROOT
+  (SQ (MD Could)
+    (NP (PRP you))
+    (VP (VB please)
+      (S
+        (VP (VB go)
+          (PP (IN by)
+            (NP
+              (NP
+                (NP (DT some) (NN bread))
+                (PRN (-LRB- -LRB-)
+                  (NP (NN wholegrain))
+                  (, ,)
+                  (NP (RB not) (NN rye))
+                  (-RRB- -RRB-)))
+              (, ,)
+              (NP
+                (NP (NN milk))
+                (PRN (-LRB- -LRB-)
+                  (NP (NN non-fat))
+                  (-RRB- -RRB-)))
+              (, ,)
+              (NP (NN flour))
+              (CC and)
+              (NP
+                (NP (NNS eggs))
+                (PP (IN from)
+                  (NP (DT the) (NN store)))))))))
+    (. .)))
+
+# Parse 3 with score -196.90825309800857
+(ROOT
+  (SQ (MD Could)
+    (NP (PRP you))
+    (VP (VB please)
+      (VP (VB go)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (DT some) (NN bread))
+              (PRN (-LRB- -LRB-)
+                (NP (NN wholegrain))
+                (, ,)
+                (NP (RB not) (NN rye))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP
+              (NP (NN milk))
+              (PRN (-LRB- -LRB-)
+                (NP (JJ non-fat))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP (NN flour))
+            (CC and)
+            (NP
+              (NP (NNS eggs))
+              (PP (IN from)
+                (NP (DT the) (NN store))))))))
+    (. .)))
+
+# Parse 4 with score -197.01457254785055
+(ROOT
+  (SQ (MD Could)
+    (NP (PRP you))
+    (VP (VB please)
+      (VP (VB go)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (DT some) (NN bread))
+              (PRN (-LRB- -LRB-)
+                (NP (NN wholegrain))
+                (, ,)
+                (NP (RB not) (NN rye))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP
+              (NP (NN milk))
+              (PRN (-LRB- -LRB-)
+                (ADJP (JJ non-fat))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP (NN flour))
+            (CC and)
+            (NP
+              (NP (NNS eggs))
+              (PP (IN from)
+                (NP (DT the) (NN store))))))))
+    (. .)))
+
+# Parse 5 with score -197.0303406715393
+(ROOT
+  (SQ (MD Could)
+    (NP (PRP you))
+    (VP (VB please)
+      (VP (VB go)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (DT some) (NN bread))
+              (PRN (-LRB- -LRB-)
+                (NP (NN wholegrain))
+                (, ,)
+                (NP (RB not) (NN rye))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP
+              (NP (NN milk))
+              (PRN (-LRB- -LRB-)
+                (NP (NN non-fat))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP (NN flour))
+            (CC and)
+            (NP (NNS eggs))))
+        (PP (IN from)
+          (NP (DT the) (NN store)))))
+    (. .)))
+

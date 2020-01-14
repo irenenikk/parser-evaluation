@@ -1,0 +1,136 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ sound) (NN argument))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ sounds)
+              (ADJP (JJ alright))
+              (, ,)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP hate)
+                    (NP
+                      (NP (DT the) (NN sound))
+                      (PP (IN of)
+                        (NP (PRP$ your) (NN voice))))))))))))
+    (. .)))
+
+# Parse 1 with score -116.18536990880966
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ sound) (NN argument))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ sounds)
+              (ADJP (JJ alright))
+              (, ,)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP hate)
+                    (NP
+                      (NP (DT the) (NN sound))
+                      (PP (IN of)
+                        (NP (PRP$ your) (NN voice))))))))))))
+    (. .)))
+
+# Parse 2 with score -116.75683821854182
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP (DT a) (JJ sound) (NN argument)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ sounds)
+              (ADJP (JJ alright))
+              (, ,)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP hate)
+                    (NP
+                      (NP (DT the) (NN sound))
+                      (PP (IN of)
+                        (NP (PRP$ your) (NN voice))))))))))))
+    (. .)))
+
+# Parse 3 with score -117.37876571831293
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ sound) (NN argument))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ sounds)
+              (ADJP (JJ alright))
+              (, ,)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP hate)
+                    (NP
+                      (NP (DT the) (NN sound))
+                      (PP (IN of)
+                        (NP (PRP$ your) (NN voice))))))))))))
+    (. .)))
+
+# Parse 4 with score -117.5215128522832
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ sound) (NN argument))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ sounds)
+              (NP (NN alright))
+              (, ,)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP hate)
+                    (NP
+                      (NP (DT the) (NN sound))
+                      (PP (IN of)
+                        (NP (PRP$ your) (NN voice))))))))))))
+    (. .)))
+
+# Parse 5 with score -117.74570979294367
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN sound) (NN argument))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ sounds)
+              (ADJP (JJ alright))
+              (, ,)
+              (SBAR (IN although)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP hate)
+                    (NP
+                      (NP (DT the) (NN sound))
+                      (PP (IN of)
+                        (NP (PRP$ your) (NN voice))))))))))))
+    (. .)))
+

@@ -1,0 +1,13 @@
+(S
+  (S (NP (PRP$ His) (NN message)) (VP (VBZ is) (ADJP (JJ clear))))
+  (: :)
+  (S
+    (NP (PRP He))
+    (VP
+      (VBZ wants)
+      (SBAR
+        (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBZ is) (VP (VBN done) (ADVP (RB right))))))))
+  (. .))

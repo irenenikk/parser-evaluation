@@ -1,0 +1,78 @@
+(ROOT
+  (S
+    (NP (NNP Kim)
+      (CC and)
+      (NNP Sandy))
+    (DT both)
+    (VP (VBD broke)
+      (PRT (RP up))
+      (PP (IN with)
+        (NP (PRP$ their) (NNS partners))))
+    (. .)))
+
+# Parse 1 with score -68.53876346349716
+(ROOT
+  (S
+    (NP (NNP Kim)
+      (CC and)
+      (NNP Sandy))
+    (DT both)
+    (VP (VBD broke)
+      (PRT (RP up))
+      (PP (IN with)
+        (NP (PRP$ their) (NNS partners))))
+    (. .)))
+
+# Parse 2 with score -71.11061424016953
+(ROOT
+  (S
+    (NP
+      (NP (NNP Kim))
+      (CC and)
+      (NP (NNP Sandy)))
+    (DT both)
+    (VP (VBD broke)
+      (PRT (RP up))
+      (PP (IN with)
+        (NP (PRP$ their) (NNS partners))))
+    (. .)))
+
+# Parse 3 with score -71.55250591039658
+(ROOT
+  (S
+    (NP (NNP Kim)
+      (CC and)
+      (NNP Sandy))
+    (ADVP (DT both))
+    (VP (VBD broke)
+      (PRT (RP up))
+      (PP (IN with)
+        (NP (PRP$ their) (NNS partners))))
+    (. .)))
+
+# Parse 4 with score -71.6640758079011
+(ROOT
+  (S
+    (NP (NNP Kim)
+      (CC and)
+      (NNP Sandy))
+    (DT both)
+    (VP (VBD broke)
+      (ADVP (RB up))
+      (PP (IN with)
+        (NP (PRP$ their) (NNS partners))))
+    (. .)))
+
+# Parse 5 with score -71.92895646509714
+(ROOT
+  (S
+    (NP (NNP Kim)
+      (CC and)
+      (NNP Sandy))
+    (DT both)
+    (VP (VBD broke)
+      (ADVP (RB up)
+        (PP (IN with)
+          (NP (PRP$ their) (NNS partners)))))
+    (. .)))
+

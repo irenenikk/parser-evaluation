@@ -1,0 +1,84 @@
+(ROOT
+  (S
+    (NP (DT The) (NNS horses))
+    (VP (VBD were)
+      (VP
+        (VP (VBN broken)
+          (PP (IN in)))
+        (CC and)
+        (VP (VBN ridden)
+          (PP (IN in)
+            (NP (CD two) (NNS weeks))))))
+    (. .)))
+
+# Parse 1 with score -70.39500278234482
+(ROOT
+  (S
+    (NP (DT The) (NNS horses))
+    (VP (VBD were)
+      (VP
+        (VP (VBN broken)
+          (PP (IN in)))
+        (CC and)
+        (VP (VBN ridden)
+          (PP (IN in)
+            (NP (CD two) (NNS weeks))))))
+    (. .)))
+
+# Parse 2 with score -70.82768786814995
+(ROOT
+  (S
+    (NP (DT The) (NNS horses))
+    (VP (VBD were)
+      (VP
+        (VP (VBN broken)
+          (PRT (RP in)))
+        (CC and)
+        (VP (VBN ridden)
+          (PP (IN in)
+            (NP (CD two) (NNS weeks))))))
+    (. .)))
+
+# Parse 3 with score -73.0140236702282
+(ROOT
+  (S
+    (NP (DT The) (NNS horses))
+    (VP (VBD were)
+      (VP
+        (VP (VBN broken)
+          (ADVP (RB in)))
+        (CC and)
+        (VP (VBN ridden)
+          (PP (IN in)
+            (NP (CD two) (NNS weeks))))))
+    (. .)))
+
+# Parse 4 with score -73.82774891075678
+(ROOT
+  (S
+    (NP (DT The) (NNS horses))
+    (VP (VBD were)
+      (VP
+        (VP (VBN broken)
+          (PP (IN in)))
+        (CC and)
+        (VP
+          (ADJP (JJ ridden))
+          (PP (IN in)
+            (NP (CD two) (NNS weeks))))))
+    (. .)))
+
+# Parse 5 with score -73.8643745270092
+(ROOT
+  (S
+    (NP (DT The) (NNS horses))
+    (VP (VBD were)
+      (VP
+        (VP (VBN broken)
+          (PP (RB in)))
+        (CC and)
+        (VP (VBN ridden)
+          (PP (IN in)
+            (NP (CD two) (NNS weeks))))))
+    (. .)))
+

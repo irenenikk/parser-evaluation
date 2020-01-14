@@ -1,0 +1,396 @@
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP
+              (NP
+                (NP
+                  (NP (NNS interjections))
+                  (PRN (-LRB- -LRB-)
+                    (FRAG
+                      (INTJ (UH oh))
+                      (, ,)
+                      (NP (NN ah)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (NP (NNS negatives))
+                  (PRN (-LRB- -LRB-)
+                    (FRAG
+                      (INTJ (UH no))
+                      (, ,)
+                      (NP (RB not)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (NP (JJ politeness) (NNS markers))
+                  (PRN (-LRB- -LRB-)
+                    (S
+                      (VP (VB please) (, ,) (VB thank)
+                        (NP (PRP you))))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (PP (CC and)
+                  (NP
+                    (NP (DT the) (NN existential))
+                    (`` `)
+                    (NP (RB there))
+                    ('' '))))
+              (PRN (-LRB- -LRB-)
+                (S
+                  (NP (EX there))
+                  (VP (VBP are)
+                    (NP
+                      (NP (NNS horses))
+                      (CONJP (CC but)
+                        (RB not))
+                      (NP (NNS unicorns)))))
+                (-RRB- -RRB-)))
+            (PP (IN among)
+              (NP (NNS others)))))))
+    (. .)))
+
+# Parse 1 with score -390.77562564611435
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP
+              (NP
+                (NP
+                  (NP (NNS interjections))
+                  (PRN (-LRB- -LRB-)
+                    (FRAG
+                      (INTJ (UH oh))
+                      (, ,)
+                      (NP (NN ah)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (NP (NNS negatives))
+                  (PRN (-LRB- -LRB-)
+                    (FRAG
+                      (INTJ (UH no))
+                      (, ,)
+                      (NP (RB not)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (NP (JJ politeness) (NNS markers))
+                  (PRN (-LRB- -LRB-)
+                    (S
+                      (VP (VB please) (, ,) (VB thank)
+                        (NP (PRP you))))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (PP (CC and)
+                  (NP
+                    (NP (DT the) (NN existential))
+                    (`` `)
+                    (NP (RB there))
+                    ('' '))))
+              (PRN (-LRB- -LRB-)
+                (S
+                  (NP (EX there))
+                  (VP (VBP are)
+                    (NP
+                      (NP (NNS horses))
+                      (CONJP (CC but)
+                        (RB not))
+                      (NP (NNS unicorns)))))
+                (-RRB- -RRB-)))
+            (PP (IN among)
+              (NP (NNS others)))))))
+    (. .)))
+
+# Parse 2 with score -391.04802478966303
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (NP
+              (ADJP
+                (ADJP (JJR more))
+                (CC or)
+                (ADJP (RBR less) (JJ unique)))
+              (NN function))
+            (, ,)
+            (PP (VBG including)
+              (NP
+                (NP
+                  (NP
+                    (NP
+                      (NP (NNS interjections))
+                      (PRN (-LRB- -LRB-)
+                        (FRAG
+                          (INTJ (UH oh))
+                          (, ,)
+                          (NP (NN ah)))
+                        (-RRB- -RRB-)))
+                    (, ,)
+                    (NP
+                      (NP (NNS negatives))
+                      (PRN (-LRB- -LRB-)
+                        (FRAG
+                          (INTJ (UH no))
+                          (, ,)
+                          (NP (RB not)))
+                        (-RRB- -RRB-)))
+                    (, ,)
+                    (NP
+                      (NP (JJ politeness) (NNS markers))
+                      (PRN (-LRB- -LRB-)
+                        (S
+                          (VP (VB please) (, ,) (VB thank)
+                            (NP (PRP you))))
+                        (-RRB- -RRB-)))
+                    (, ,)
+                    (PP (CC and)
+                      (NP
+                        (NP (DT the) (NN existential))
+                        (`` `)
+                        (NP (RB there))
+                        ('' '))))
+                  (PRN (-LRB- -LRB-)
+                    (S
+                      (NP (EX there))
+                      (VP (VBP are)
+                        (NP
+                          (NP (NNS horses))
+                          (CONJP (CC but)
+                            (RB not))
+                          (NP (NNS unicorns)))))
+                    (-RRB- -RRB-)))
+                (PP (IN among)
+                  (NP (NNS others)))))))))
+    (. .)))
+
+# Parse 3 with score -391.0505238932092
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function))))
+      (, ,)
+      (PP (VBG including)
+        (NP
+          (NP
+            (NP
+              (NP
+                (NP (NNS interjections))
+                (PRN (-LRB- -LRB-)
+                  (FRAG
+                    (INTJ (UH oh))
+                    (, ,)
+                    (NP (NN ah)))
+                  (-RRB- -RRB-)))
+              (, ,)
+              (NP
+                (NP (NNS negatives))
+                (PRN (-LRB- -LRB-)
+                  (FRAG
+                    (INTJ (UH no))
+                    (, ,)
+                    (NP (RB not)))
+                  (-RRB- -RRB-)))
+              (, ,)
+              (NP
+                (NP (JJ politeness) (NNS markers))
+                (PRN (-LRB- -LRB-)
+                  (S
+                    (VP (VB please) (, ,) (VB thank)
+                      (NP (PRP you))))
+                  (-RRB- -RRB-)))
+              (, ,)
+              (PP (CC and)
+                (NP
+                  (NP (DT the) (NN existential))
+                  (`` `)
+                  (NP (RB there))
+                  ('' '))))
+            (PRN (-LRB- -LRB-)
+              (S
+                (NP (EX there))
+                (VP (VBP are)
+                  (NP
+                    (NP (NNS horses))
+                    (CONJP (CC but)
+                      (RB not))
+                    (NP (NNS unicorns)))))
+              (-RRB- -RRB-)))
+          (PP (IN among)
+            (NP (NNS others))))))
+    (. .)))
+
+# Parse 4 with score -391.1078955135017
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP
+              (NP
+                (NP
+                  (NP (NNS interjections))
+                  (PRN (-LRB- -LRB-)
+                    (FRAG
+                      (INTJ (UH oh))
+                      (, ,)
+                      (NP (NN ah)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (NP (NNS negatives))
+                  (PRN (-LRB- -LRB-)
+                    (FRAG
+                      (INTJ (UH no))
+                      (, ,)
+                      (ADVP (RB not)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (NP (JJ politeness) (NNS markers))
+                  (PRN (-LRB- -LRB-)
+                    (S
+                      (VP (VB please) (, ,) (VB thank)
+                        (NP (PRP you))))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (PP (CC and)
+                  (NP
+                    (NP (DT the) (NN existential))
+                    (`` `)
+                    (NP (RB there))
+                    ('' '))))
+              (PRN (-LRB- -LRB-)
+                (S
+                  (NP (EX there))
+                  (VP (VBP are)
+                    (NP
+                      (NP (NNS horses))
+                      (CONJP (CC but)
+                        (RB not))
+                      (NP (NNS unicorns)))))
+                (-RRB- -RRB-)))
+            (PP (IN among)
+              (NP (NNS others)))))))
+    (. .)))
+
+# Parse 5 with score -391.21750273319776
+(ROOT
+  (S
+    (NP (NNP English))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ many) (NNS words))
+        (PP (IN of)
+          (NP
+            (ADJP
+              (ADJP (JJR more))
+              (CC or)
+              (ADJP (RBR less) (JJ unique)))
+            (NN function)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP
+              (NP
+                (NP
+                  (NP (NNS interjections))
+                  (PRN (-LRB- -LRB-)
+                    (FRAG
+                      (INTJ (UH oh))
+                      (, ,)
+                      (NP (NN ah)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (NP (NNS negatives))
+                  (PRN (-LRB- -LRB-)
+                    (INTJ
+                      (INTJ (UH no))
+                      (, ,)
+                      (INTJ (RB not)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (NP (JJ politeness) (NNS markers))
+                  (PRN (-LRB- -LRB-)
+                    (S
+                      (VP (VB please) (, ,) (VB thank)
+                        (NP (PRP you))))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (PP (CC and)
+                  (NP
+                    (NP (DT the) (NN existential))
+                    (`` `)
+                    (NP (RB there))
+                    ('' '))))
+              (PRN (-LRB- -LRB-)
+                (S
+                  (NP (EX there))
+                  (VP (VBP are)
+                    (NP
+                      (NP (NNS horses))
+                      (CONJP (CC but)
+                        (RB not))
+                      (NP (NNS unicorns)))))
+                (-RRB- -RRB-)))
+            (PP (IN among)
+              (NP (NNS others)))))))
+    (. .)))
+

@@ -10,5 +10,6 @@ fi
 
 sent_num=$1
 
-java -jar maltEval/lib/MaltEval.jar -s "outputs_berkeley/conll_files/$sent_num.txt" -g "gold_standard_fixed/sentence_$sent_num.txt" > "accuracies/$sent_num/berkeley.txt"
-java -jar maltEval/lib/MaltEval.jar -s "outputs_stanford_pcfg_best/conll_files/$sent_num.txt" -g "gold_standard_fixed/sentence_$sent_num.txt" > "accuracies/$sent_num/stanford.txt"
+java -jar maltEval/lib/MaltEval.jar -s "outputs_berkeley/conll_files/$sent_num.txt" "outputs_stanford_pcfg_best/conll_files/$sent_num.txt" -g "gold_standard_fixed/sentence_$sent_num.txt" --GroupBy Deprel --Metric self > "evaluation_results/deprel/${sent_num}.txt"
+java -jar maltEval/lib/MaltEval.jar -s "outputs_berkeley/conll_files/$sent_num.txt" "outputs_stanford_pcfg_best/conll_files/$sent_num.txt" -g "gold_standard_fixed/sentence_$sent_num.txt" --Metric LAS > "evaluation_results/las/${sent_num}.txt"
+java -jar maltEval/lib/MaltEval.jar -s "outputs_berkeley/conll_files/$sent_num.txt" "outputs_stanford_pcfg_best/conll_files/$sent_num.txt" -g "gold_standard_fixed/sentence_$sent_num.txt" --Metric UAS > "evaluation_results/uas/${sent_num}.txt"

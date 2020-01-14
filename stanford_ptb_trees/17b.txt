@@ -1,0 +1,241 @@
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (NP (DT the) (JJ original) (NNP Brown)
+      (CC and)
+      (NNP C5) (NNS tagsets))
+    (VP (VBP include)
+      (S
+        (NP
+          (NP (DT a) (JJ separate) (NN tag))
+          (PP (IN for)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ different) (NNS forms))
+                  (PP (IN of)
+                    (NP (DT the) (NNS verbs))))))))
+        (VP
+          (VP (VB do)
+            (PRN (-LRB- -LRB-)
+              (S
+                (NP (NNP e.g.) (NNP C5) (NNP tag) (NNP VDD) (IN for))
+                (VP
+                  (VP (VBD did))
+                  (CC and)
+                  (VP (VBP VDG)
+                    (NP (NN tag))
+                    (PP (IN for)
+                      (S
+                        (VP (VBG doing)))))))
+              (-RRB- -RRB-)))
+          (, ,)
+          (VP (VB be))
+          (CC and)
+          (VP (VB have)))))))
+
+# Parse 1 with score -323.60463565588
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (NP (DT the) (JJ original) (NNP Brown)
+      (CC and)
+      (NNP C5) (NNS tagsets))
+    (VP (VBP include)
+      (S
+        (NP
+          (NP (DT a) (JJ separate) (NN tag))
+          (PP (IN for)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ different) (NNS forms))
+                  (PP (IN of)
+                    (NP (DT the) (NNS verbs))))))))
+        (VP
+          (VP (VB do)
+            (PRN (-LRB- -LRB-)
+              (S
+                (NP (NNP e.g.) (NNP C5) (NNP tag) (NNP VDD) (IN for))
+                (VP
+                  (VP (VBD did))
+                  (CC and)
+                  (VP (VBP VDG)
+                    (NP (NN tag))
+                    (PP (IN for)
+                      (S
+                        (VP (VBG doing)))))))
+              (-RRB- -RRB-)))
+          (, ,)
+          (VP (VB be))
+          (CC and)
+          (VP (VB have)))))))
+
+# Parse 2 with score -324.7588948607445
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (NP (DT the) (JJ original) (NNP Brown)
+      (CC and)
+      (NNP C5) (NNS tagsets))
+    (VP (VBP include)
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (JJ separate) (NN tag))
+            (PP (IN for)
+              (NP
+                (NP (DT each))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJ different) (NNS forms))
+                    (PP (IN of)
+                      (NP (DT the) (NNS verbs))))))))
+          (VP
+            (VP (VB do)
+              (PRN (-LRB- -LRB-)
+                (S
+                  (NP (NNP e.g.) (NNP C5) (NNP tag) (NNP VDD) (IN for))
+                  (VP
+                    (VP (VBD did))
+                    (CC and)
+                    (VP (VBP VDG)
+                      (NP (NN tag))
+                      (PP (IN for)
+                        (S
+                          (VP (VBG doing)))))))
+                (-RRB- -RRB-)))
+            (, ,)
+            (VP (VB be))
+            (CC and)
+            (VP (VB have))))))))
+
+# Parse 3 with score -324.8438495025039
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (NP (DT the) (JJ original) (NNP Brown)
+      (CC and)
+      (NNP C5) (NNS tagsets))
+    (VP (VBP include)
+      (S
+        (NP
+          (NP (DT a) (JJ separate) (NN tag))
+          (PP (IN for)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ different) (NNS forms))
+                  (PP (IN of)
+                    (NP (DT the) (NNS verbs))))))))
+        (VP
+          (VP (VB do)
+            (PRN (-LRB- -LRB-)
+              (S
+                (NP
+                  (NP (NNP e.g.) (NNP C5) (NNP tag) (NNP VDD))
+                  (PP (IN for)))
+                (VP
+                  (VP (VBD did))
+                  (CC and)
+                  (VP (VBP VDG)
+                    (NP (NN tag))
+                    (PP (IN for)
+                      (S
+                        (VP (VBG doing)))))))
+              (-RRB- -RRB-)))
+          (, ,)
+          (VP (VB be))
+          (CC and)
+          (VP (VB have)))))))
+
+# Parse 4 with score -324.8587928637862
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (NP (DT the) (JJ original) (NNP Brown)
+      (CC and)
+      (NNP C5) (NNS tagsets))
+    (VP (VBP include)
+      (S
+        (NP
+          (NP (DT a) (JJ separate) (NN tag))
+          (PP (IN for)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ different) (NNS forms))
+                  (PP (IN of)
+                    (NP (DT the) (NNS verbs))))))))
+        (VP
+          (VP (VB do)
+            (PRN (-LRB- -LRB-)
+              (S
+                (NP (NNP e.g.) (NNP C5) (NN tag))
+                (VP (VBP VDD)
+                  (SBAR (IN for)
+                    (S
+                      (VP
+                        (VP (VBD did))
+                        (CC and)
+                        (VP (VBP VDG)
+                          (NP (NN tag))
+                          (PP (IN for)
+                            (S
+                              (VP (VBG doing))))))))))
+              (-RRB- -RRB-)))
+          (, ,)
+          (VP (VB be))
+          (CC and)
+          (VP (VB have)))))))
+
+# Parse 5 with score -324.9864894002676
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (NP (DT the) (JJ original) (NNP Brown)
+      (CC and)
+      (NNP C5) (NNS tagsets))
+    (VP (VBP include)
+      (S
+        (NP
+          (NP (DT a) (JJ separate) (NN tag))
+          (PP (IN for)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ different) (NNS forms))
+                  (PP (IN of)
+                    (NP (DT the) (NNS verbs))))))))
+        (VP
+          (VP (VB do)
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP e.g.) (NNP C5) (NNP tag) (NNP VDD))
+                (SBAR (IN for)
+                  (S
+                    (VP
+                      (VP (VBD did))
+                      (CC and)
+                      (VP (VBP VDG)
+                        (NP (NN tag))
+                        (PP (IN for)
+                          (S
+                            (VP (VBG doing)))))))))
+              (-RRB- -RRB-)))
+          (, ,)
+          (VP (VB be))
+          (CC and)
+          (VP (VB have)))))))
+

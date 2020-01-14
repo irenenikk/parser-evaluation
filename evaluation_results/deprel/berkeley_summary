@@ -1,0 +1,385 @@
+Evaluation arguments: -s outputs_berkeley/conll_files/ -g gold_standards/pure_conlls/ --GroupBy Deprel --Metric self
+====================================================
+Gold:   gold_standards/pure_conlls/1.conll
+Parsed: outputs_berkeley/conll_files/1.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           amod
+1              1           1           det
+1              1           1           nn
+1              1           1           nsubj
+1              1           1           pobj
+1              1           1           prep
+1              1           1           prt
+1              1           1           punct
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/15.conll
+Parsed: outputs_berkeley/conll_files/15.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              0.5         0.667       advmod
+1              1           1           amod
+-              0           -           appos
+1              1           1           cc
+1              0.625       0.769       conj
+0.2            1           0.333       dep
+1              1           1           det
+0              -           -           discourse
+1              0.667       0.8         dobj
+1              1           1           expl
+1              1           1           neg
+1              1           1           nn
+1              1           1           nsubj
+0.667          1           0.8         pobj
+0.667          1           0.8         prep
+1              1           1           punct
+1              1           1           root
+-              0           -           vmod
+
+====================================================
+Gold:   gold_standards/pure_conlls/16.conll
+Parsed: outputs_berkeley/conll_files/16.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           advmod
+1              1           1           amod
+1              1           1           aux
+1              1           1           cc
+1              1           1           ccomp
+1              1           1           conj
+1              1           1           csubj
+1              1           1           dep
+1              1           1           det
+1              1           1           dobj
+1              1           1           nsubj
+1              1           1           parataxis
+1              1           1           pobj
+1              1           1           prep
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/17a.conll
+Parsed: outputs_berkeley/conll_files/17a.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           amod
+1              1           1           auxpass
+1              1           1           det
+1              1           1           nn
+1              1           1           nsubjpass
+1              1           1           pobj
+0.5            1           0.667       prep
+-              0           -           prt
+1              1           1           punct
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/17b.conll
+Parsed: outputs_berkeley/conll_files/17b.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           amod
+-              0           -           appos
+0              -           -           aux
+1              1           1           cc
+0.667          0.5         0.571       conj
+0              -           -           dep
+1              1           1           det
+1              1           1           dobj
+0.75           0.5         0.6         nn
+0              0           -           nsubj
+0.833          0.833       0.833       pobj
+1              1           1           prep
+1              1           1           punct
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/18.conll
+Parsed: outputs_berkeley/conll_files/18.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           advmod
+0.8            1           0.889       amod
+-              0           -           appos
+1              1           1           cc
+1              1           1           conj
+0.6            0.6         0.6         dep
+1              1           1           det
+0.667          0.667       0.667       dobj
+0.75           1           0.857       nn
+1              1           1           nsubj
+1              1           1           num
+1              1           1           pobj
+1              1           1           poss
+1              1           1           prep
+1              1           1           punct
+-              0           -           rcmod
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/19.conll
+Parsed: outputs_berkeley/conll_files/19.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+-              0           -           advcl
+0.833          1           0.909       advmod
+0.667          0.5         0.571       amod
+-              0           -           aux
+0.5            1           0.667       auxpass
+-              0           -           cop
+0              -           -           dep
+1              1           1           det
+-              0           -           dobj
+1              1           1           neg
+0.5            1           0.667       nn
+-              0           -           nsubj
+0.5            1           0.667       nsubjpass
+0.667          1           0.8         pobj
+1              0.667       0.8         prep
+1              1           1           punct
+-              0           -           rcmod
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/2.conll
+Parsed: outputs_berkeley/conll_files/2.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+0              -           -           advmod
+1              1           1           cc
+1              1           1           conj
+1              1           1           dobj
+1              1           1           mwe
+1              1           1           nsubj
+1              1           1           num
+1              1           1           poss
+-              0           -           prt
+1              1           1           punct
+1              1           1           quantmod
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/3.conll
+Parsed: outputs_berkeley/conll_files/3.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+0              -           -           aux
+1              1           1           auxpass
+1              1           1           cc
+-              0           -           conj
+1              1           1           det
+1              1           1           nsubjpass
+1              1           1           num
+1              1           1           pobj
+1              1           1           prep
+1              1           1           prt
+1              1           1           punct
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/4.conll
+Parsed: outputs_berkeley/conll_files/4.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           cc
+1              1           1           conj
+0              -           -           dep
+-              0           -           det
+1              1           1           nsubj
+1              1           1           pobj
+1              1           1           poss
+1              1           1           prep
+1              1           1           prt
+1              1           1           punct
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/5.conll
+Parsed: outputs_berkeley/conll_files/5.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              0.667       0.8         advmod
+1              1           1           cop
+0              -           -           dep
+1              1           1           det
+1              1           1           dobj
+1              1           1           nsubj
+1              1           1           pobj
+1              1           1           prep
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+
+====================================================
+Gold:   gold_standards/pure_conlls/6.conll
+Parsed: outputs_berkeley/conll_files/6.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+0              -           -           advmod
+1              1           1           aux
+1              1           1           cc
+1              1           1           conj
+1              1           1           det
+1              1           1           dobj
+1              0.5         0.667       mwe
+1              1           1           nsubj
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+1              1           1           xcomp
+
+====================================================
+Gold:   gold_standards/pure_conlls/7.conll
+Parsed: outputs_berkeley/conll_files/7.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+-------------------------------------------------
+1              1           1           amod
+1              1           1           cop
+1              1           1           dobj
+1              1           1           nsubj
+1              1           1           pobj
+1              1           1           poss
+1              1           1           possessive
+1              1           1           prep
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+1              1           1           tmod
+
+====================================================
+Gold:   gold_standards/pure_conlls/8.conll
+Parsed: outputs_berkeley/conll_files/8.conll
+====================================================
+GroupBy-> Deprel
+Metric-> Deprel
+
+====================================================
+
+precision /    recall /    fscore /    Deprel
+------------------------------------------------
+1              1           1           advmod
+1              1           1           amod
+1              1           1           auxpass
+1              0.5         0.667       det
+1              1           1           dobj
+1              1           1           nsubj
+1              1           1           nsubjpass
+1              1           1           num
+1              1           1           pobj
+0              -           -           poss
+1              1           1           prep
+1              1           1           punct
+1              1           1           rcmod
+1              1           1           root
+1              1           1           tmod
+
+====================================================
+Gold:   gold_standards/pure_conlls/1.conll, gold_standards/pure_conlls/15.conll, gold_standards/pure_conlls/16.conll, gold_standards/pure_conlls/17a.conll, gold_standards/pure_conlls/17b.conll, gold_standards/pure_conlls/18.conll, gold_standards/pure_conlls/19.conll, gold_standards/pure_conlls/2.conll, gold_standards/pure_conlls/3.conll, gold_standards/pure_conlls/4.conll, gold_standards/pure_conlls/5.conll, gold_standards/pure_conlls/6.conll, gold_standards/pure_conlls/7.conll, gold_standards/pure_conlls/8.conll
+Parsed: outputs_berkeley/conll_files/1.conll, outputs_berkeley/conll_files/15.conll, outputs_berkeley/conll_files/16.conll, outputs_berkeley/conll_files/17a.conll, outputs_berkeley/conll_files/17b.conll, outputs_berkeley/conll_files/18.conll, outputs_berkeley/conll_files/19.conll, outputs_berkeley/conll_files/2.conll, outputs_berkeley/conll_files/3.conll, outputs_berkeley/conll_files/4.conll, outputs_berkeley/conll_files/5.conll, outputs_berkeley/conll_files/6.conll, outputs_berkeley/conll_files/7.conll, outputs_berkeley/conll_files/8.conll
+====================================================
+Mean:
+
+====================================================
+
+Agg. precision   Agg. recall   Agg. fscore   File number
+--------------------------------------------------------
+0.902            0.892         0.959         Row mean
+14               14            14            Row count
+--------------------------------------------------------
+1                1             1             <1>
+0.846            0.811         0.878         <2>
+1                1             1             <3>
+0.944            0.9           0.963         <4>
+0.712            0.736         0.9           <5>
+0.921            0.839         0.934         <6>
+0.722            0.598         0.826         <7>
+0.909            0.909         1             <8>
+0.909            0.909         1             <9>
+0.9              0.9           1             <10>
+0.909            0.967         0.98          <11>
+0.917            0.955         0.97          <12>
+1                1             1             <13>
+0.933            0.964         0.976         <14>
+

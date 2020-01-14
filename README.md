@@ -1,18 +1,20 @@
 # Parser evaluation
 
-This project scripts used to compare the perforamance between two dependency parsers: Stanford and RASP.
+This project scripts used to compare the perforamance between two dependency parsers: The Stanford PCFG parser, and the Berkeley neural parser. This repository does not contain the parsers themselves.
 
 ## Folder structure
 
-The `inputs` folder should contain the input phrases, each in their own txt file with their unique id. These will be parsed into the `outputs` folder.
+The `inputs` folder contains the input phrases, each in their own txt file with their unique id. These will be parsed into the `outputs` folders. The `outputs` folders contain the Penn Treebank trees and the final Stanford Dependencies for each sentence. The folder `outputs_stanford_pcfg_best` only contains the best parse instead of top 5 parses. The folder `gold_standards` contains the crowdsourced gold standards used in the analysis, as well as comments about the mistakes made by each parser.
+
+The folder `stanford-parser-full-2018-10-17` does not contain the Stanford parser itself, but scirpts which have been modified from Stanford parser's examples. Other scripts are found in the `util_scripts` folder
 
 ## Running experiments
 
-You need to instll the Stanford parser separately in order to run the experiments. You can do so from [here](http://nlp.stanford.edu/software/lex-parser.html#Download). The Berkeley parser is used as a Python package, and will be installed automatically when you run the script. 
+You need to instll the Stanford parser separately in order to run the experiments. You can do so from [here](http://nlp.stanford.edu/software/lex-parser.html#Dogit@github.com:irenenikk/parser-evaluation.gitwnload). The Berkeley parser is used as a Python package, and will be installed automatically when you run the script. 
 
 After having installed the Stanford parser, use the following command to convert all sentences in the input folder to SD parses in the output folder:
 
-**You must run it in the folder you have installed the Stanford parser**
+**You must run it in the folder you have installed the Stanford parser, e.g. stanford-parser-full-2018-10-17**
 
 ```
 ../run_parsers.sh
@@ -21,11 +23,13 @@ After having installed the Stanford parser, use the following command to convert
 ### The stanford parser
 
 
-Run the parser with 
+Run the parser for a single sentence with
 
 ```
 ./basic_pcfg_parsers.sh ../inputs/xx.txt > ../outputs_stanford_pcfg/xx.txt
 ```
+
+found inside the folder `stanford-parser-full-2018-10-17`.
 
 ### The Berkeley parser
 
@@ -41,16 +45,10 @@ Then change into Stanford Dependency (this should be run in the Stanford directo
 ./convert_ptb_to_sd.sh ../berkeley_ptb_trees/xx.txt > ../outputs_berkeley/xx.txt
 ```
 
-//TODO: 
-
-### Running all the parser
-
 ### Conversion scripts
+
+Conversion scripts from PTB to CONLL are in the `util_scripts` folder. Use `stanford-parser-full-2018-10-17/convert_ptb_to_sd.sh` to convert PTB trees to SDs.
 
 ### Quantitative evaluation
 
-#### Runnin MaltEval
-
-```
-java -jar maltEval/lib/MaltEval.jar -s outputs_berkeley/conll_files/15.txt -g gold_standard_fixed/sentence_15.txt
-```
+This project uses MaltEval for quantitative analysis, but does not contain the jar for it. You can run the quantiative analysis with the script `utils_scripts/evaluate_sentences.sh`

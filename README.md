@@ -1,4 +1,4 @@
-# Parser evaluation
+# The Stanford parser vs the Berkeley parser
 
 This project scripts used to compare the perforamance between two dependency parsers: The Stanford PCFG parser, and the Berkeley neural parser. This repository does not contain the parsers themselves.
 
@@ -10,9 +10,9 @@ The folder `stanford-parser-full-2018-10-17` does not contain the Stanford parse
 
 ## Running experiments
 
-You need to instll the Stanford parser separately in order to run the experiments. You can do so from [here](http://nlp.stanford.edu/software/lex-parser.html#Dogit@github.com:irenenikk/parser-evaluation.gitwnload). The Berkeley parser is used as a Python package, and will be installed automatically when you run the script. 
+You need to install the Stanford parser separately in order to run the experiments. You can do so from [here](http://nlp.stanford.edu/software/lex-parser.html#Dogit@github.com:irenenikk/parser-evaluation.gitwnload). The Berkeley parser is used as a Python package, instructions [here](https://github.com/nikitakit/self-attentive-parser#installation). This project uses the NLTK integrations, so make sure to install the correct tokenizers. 
 
-After having installed the Stanford parser, use the following command to convert all sentences in the input folder to SD parses in the output folder:
+After having installed both parsers, use the following command to convert all sentences in the input folder to SD parses in the output folder:
 
 **You must run it in the folder you have installed the Stanford parser, e.g. stanford-parser-full-2018-10-17**
 

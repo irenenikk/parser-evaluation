@@ -1,6 +1,6 @@
-# The Stanford parser vs the Berkeley parser
+# Evaluating the Stanford PCFG parser against the Berkeley neural parser
 
-This project scripts used to compare the perforamance between two dependency parsers: The Stanford PCFG parser, and the Berkeley neural parser. This repository does not contain the parsers themselves.
+This project contains the scripts used to compare the perforamance between two dependency parsers: The Stanford PCFG parser, and the Berkeley neural parser. The repository does not contain the parsers themselves.
 
 ## Folder structure
 
@@ -10,7 +10,7 @@ The folder `stanford-parser-full-2018-10-17` does not contain the Stanford parse
 
 ## Running experiments
 
-You need to install the Stanford parser separately in order to run the experiments. You can do so from [here](http://nlp.stanford.edu/software/lex-parser.html#Dogit@github.com:irenenikk/parser-evaluation.gitwnload). The Berkeley parser is used as a Python package, instructions [here](https://github.com/nikitakit/self-attentive-parser#installation). This project uses the NLTK integrations, so make sure to install the correct tokenizers. 
+You need to install the Stanford parser separately in order to run the experiments. You can do so from [here](http://nlp.stanford.edu/software/lex-parser.htm). The Berkeley parser is used as a Python package, and installation instructions are found [here](https://github.com/nikitakit/self-attentive-parser#installation). This project uses the NLTK integration, so make sure to install the additional stuff. 
 
 After having installed both parsers, use the following command to convert all sentences in the input folder to SD parses in the output folder:
 
@@ -51,4 +51,4 @@ Conversion scripts from PTB to CONLL are in the `util_scripts` folder. Use `stan
 
 ### Quantitative evaluation
 
-This project uses MaltEval for quantitative analysis, but does not contain the jar for it. You can run the quantiative analysis with the script `utils_scripts/evaluate_sentences.sh`
+This project uses MaltEval for quantitative analysis, but does not contain the jar for it. You can run the quantiative analysis with the script `utils_scripts/evaluate_sentences.sh`. The results will be stored in the folder `evaluation_results`.
